@@ -1,5 +1,7 @@
 ﻿**Eric Tomás Zancanaro**
+﻿
 **Programação de Alto Desempenho - PPGI UFSM**
+
 **Profª Andrea Schwertner Charão**
 
 
