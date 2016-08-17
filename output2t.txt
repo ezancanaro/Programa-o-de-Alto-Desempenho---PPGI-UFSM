@@ -1,0 +1,675 @@
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = OpenMP (using tasks)
+Embedded cut-off    = none
+# of Threads        = 2
+Verification        = Not requested
+Time Program        = 11.666363 seconds
+Execution Date      = 2016/08/16;19:31
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 0.74;0.66;0.47
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = OpenMP (using tasks)
+Embedded cut-off    = pragma-if (3)
+# of Threads        = 2
+Verification        = Not requested
+Time Program        = 4.043163 seconds
+Execution Date      = 2016/08/16;19:31
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 0.74;0.66;0.47
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DIF_CUTOFF-I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = OpenMP (using tied tasks)
+Embedded cut-off    = pragma-if (3)
+# of Threads        = 2
+Verification        = Not requested
+Time Program        = 4.369262 seconds
+Execution Date      = 2016/08/16;19:31
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 0.68;0.65;0.47
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DFORCE_TIED_TASKS -DIF_CUTOFF -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = OpenMP (using tasks)
+Embedded cut-off    = manual (3)
+# of Threads        = 2
+Verification        = Not requested
+Time Program        = 3.035224 seconds
+Execution Date      = 2016/08/16;19:31
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 0.71;0.66;0.48
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DMANUAL_CUTOFF -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = OpenMP (using tied tasks)
+Embedded cut-off    = manual (3)
+# of Threads        = 2
+Verification        = Not requested
+Time Program        = 3.058438 seconds
+Execution Date      = 2016/08/16;19:31
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 0.81;0.68;0.48
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DFORCE_TIED_TASKS -DMANUAL_CUTOFF -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = OpenMP (using tied tasks)
+Embedded cut-off    = none
+# of Threads        = 2
+Verification        = Not requested
+Time Program        = 11.749332 seconds
+Execution Date      = 2016/08/16;19:31
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 0.91;0.71;0.50
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DFORCE_TIED_TASKS -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = Serial
+Embedded cut-off    = none
+# of Threads        = 1
+Verification        = Not requested
+Time Program        = 5.844926 seconds
+Execution Date      = 2016/08/16;19:31
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 0.92;0.71;0.50
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc
+Compiler Flags      = -c -I../..//common -O3    -I.
+Linker              = gcc
+Linker Flags        = -O3   
+-----------------------
+-----------------------
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = OpenMP (using tasks)
+Embedded cut-off    = none
+# of Threads        = 2
+Verification        = Not requested
+Time Program        = 11.689841 seconds
+Execution Date      = 2016/08/16;19:32
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 1.01;0.74;0.51
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = OpenMP (using tasks)
+Embedded cut-off    = pragma-if (3)
+# of Threads        = 2
+Verification        = Not requested
+Time Program        = 4.433613 seconds
+Execution Date      = 2016/08/16;19:32
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 1.01;0.74;0.51
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DIF_CUTOFF-I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = OpenMP (using tied tasks)
+Embedded cut-off    = pragma-if (3)
+# of Threads        = 2
+Verification        = Not requested
+Time Program        = 4.092795 seconds
+Execution Date      = 2016/08/16;19:32
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 1.09;0.76;0.52
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DFORCE_TIED_TASKS -DIF_CUTOFF -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = OpenMP (using tasks)
+Embedded cut-off    = manual (3)
+# of Threads        = 2
+Verification        = Not requested
+Time Program        = 3.050147 seconds
+Execution Date      = 2016/08/16;19:32
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 1.08;0.77;0.52
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DMANUAL_CUTOFF -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = OpenMP (using tied tasks)
+Embedded cut-off    = manual (3)
+# of Threads        = 2
+Verification        = Not requested
+Time Program        = 3.073329 seconds
+Execution Date      = 2016/08/16;19:32
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 1.08;0.77;0.52
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DFORCE_TIED_TASKS -DMANUAL_CUTOFF -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = OpenMP (using tied tasks)
+Embedded cut-off    = none
+# of Threads        = 2
+Verification        = Not requested
+Time Program        = 11.741030 seconds
+Execution Date      = 2016/08/16;19:32
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 1.29;0.83;0.54
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DFORCE_TIED_TASKS -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = Serial
+Embedded cut-off    = none
+# of Threads        = 1
+Verification        = Not requested
+Time Program        = 5.851073 seconds
+Execution Date      = 2016/08/16;19:32
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 1.26;0.83;0.55
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc
+Compiler Flags      = -c -I../..//common -O3    -I.
+Linker              = gcc
+Linker Flags        = -O3   
+-----------------------
+-----------------------
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = OpenMP (using tasks)
+Embedded cut-off    = none
+# of Threads        = 2
+Verification        = Not requested
+Time Program        = 11.658305 seconds
+Execution Date      = 2016/08/16;19:32
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 1.22;0.84;0.55
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = OpenMP (using tasks)
+Embedded cut-off    = pragma-if (3)
+# of Threads        = 2
+Verification        = Not requested
+Time Program        = 4.439767 seconds
+Execution Date      = 2016/08/16;19:32
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 1.28;0.86;0.56
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DIF_CUTOFF-I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = OpenMP (using tied tasks)
+Embedded cut-off    = pragma-if (3)
+# of Threads        = 2
+Verification        = Not requested
+Time Program        = 3.835916 seconds
+Execution Date      = 2016/08/16;19:33
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 1.26;0.86;0.56
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DFORCE_TIED_TASKS -DIF_CUTOFF -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = OpenMP (using tasks)
+Embedded cut-off    = manual (3)
+# of Threads        = 2
+Verification        = Not requested
+Time Program        = 3.287474 seconds
+Execution Date      = 2016/08/16;19:33
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 1.24;0.86;0.56
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DMANUAL_CUTOFF -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = OpenMP (using tied tasks)
+Embedded cut-off    = manual (3)
+# of Threads        = 2
+Verification        = Not requested
+Time Program        = 3.077126 seconds
+Execution Date      = 2016/08/16;19:33
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 1.24;0.86;0.56
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DFORCE_TIED_TASKS -DMANUAL_CUTOFF -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = OpenMP (using tied tasks)
+Embedded cut-off    = none
+# of Threads        = 2
+Verification        = Not requested
+Time Program        = 11.741820 seconds
+Execution Date      = 2016/08/16;19:33
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 1.28;0.88;0.58
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DFORCE_TIED_TASKS -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = Serial
+Embedded cut-off    = none
+# of Threads        = 1
+Verification        = Not requested
+Time Program        = 5.850955 seconds
+Execution Date      = 2016/08/16;19:33
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 1.24;0.89;0.58
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc
+Compiler Flags      = -c -I../..//common -O3    -I.
+Linker              = gcc
+Linker Flags        = -O3   
+-----------------------
+-----------------------
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = OpenMP (using tasks)
+Embedded cut-off    = none
+# of Threads        = 2
+Verification        = Not requested
+Time Program        = 11.707867 seconds
+Execution Date      = 2016/08/16;19:33
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 1.28;0.91;0.59
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = OpenMP (using tasks)
+Embedded cut-off    = pragma-if (3)
+# of Threads        = 2
+Verification        = Not requested
+Time Program        = 4.448320 seconds
+Execution Date      = 2016/08/16;19:33
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 1.26;0.91;0.59
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DIF_CUTOFF-I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = OpenMP (using tied tasks)
+Embedded cut-off    = pragma-if (3)
+# of Threads        = 2
+Verification        = Not requested
+Time Program        = 4.073220 seconds
+Execution Date      = 2016/08/16;19:33
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 1.32;0.93;0.60
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DFORCE_TIED_TASKS -DIF_CUTOFF -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = OpenMP (using tasks)
+Embedded cut-off    = manual (3)
+# of Threads        = 2
+Verification        = Not requested
+Time Program        = 3.273795 seconds
+Execution Date      = 2016/08/16;19:33
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 1.32;0.93;0.60
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DMANUAL_CUTOFF -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = OpenMP (using tied tasks)
+Embedded cut-off    = manual (3)
+# of Threads        = 2
+Verification        = Not requested
+Time Program        = 3.075156 seconds
+Execution Date      = 2016/08/16;19:33
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 1.29;0.93;0.60
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DFORCE_TIED_TASKS -DMANUAL_CUTOFF -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = OpenMP (using tied tasks)
+Embedded cut-off    = none
+# of Threads        = 2
+Verification        = Not requested
+Time Program        = 11.731486 seconds
+Execution Date      = 2016/08/16;19:33
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 1.40;0.96;0.62
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DFORCE_TIED_TASKS -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = Serial
+Embedded cut-off    = none
+# of Threads        = 1
+Verification        = Not requested
+Time Program        = 5.848323 seconds
+Execution Date      = 2016/08/16;19:34
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 1.37;0.96;0.62
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc
+Compiler Flags      = -c -I../..//common -O3    -I.
+Linker              = gcc
+Linker Flags        = -O3   
+-----------------------
+-----------------------
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = OpenMP (using tasks)
+Embedded cut-off    = none
+# of Threads        = 2
+Verification        = Not requested
+Time Program        = 11.743206 seconds
+Execution Date      = 2016/08/16;19:34
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 1.44;1.00;0.64
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = OpenMP (using tasks)
+Embedded cut-off    = pragma-if (3)
+# of Threads        = 2
+Verification        = Not requested
+Time Program        = 4.127036 seconds
+Execution Date      = 2016/08/16;19:34
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 1.41;1.00;0.64
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DIF_CUTOFF-I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = OpenMP (using tied tasks)
+Embedded cut-off    = pragma-if (3)
+# of Threads        = 2
+Verification        = Not requested
+Time Program        = 4.072882 seconds
+Execution Date      = 2016/08/16;19:34
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 1.41;1.00;0.64
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DFORCE_TIED_TASKS -DIF_CUTOFF -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = OpenMP (using tasks)
+Embedded cut-off    = manual (3)
+# of Threads        = 2
+Verification        = Not requested
+Time Program        = 3.051398 seconds
+Execution Date      = 2016/08/16;19:34
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 1.29;0.98;0.63
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DMANUAL_CUTOFF -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = OpenMP (using tied tasks)
+Embedded cut-off    = manual (3)
+# of Threads        = 2
+Verification        = Not requested
+Time Program        = 3.318683 seconds
+Execution Date      = 2016/08/16;19:34
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 1.35;1.00;0.64
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DFORCE_TIED_TASKS -DMANUAL_CUTOFF -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = OpenMP (using tied tasks)
+Embedded cut-off    = none
+# of Threads        = 2
+Verification        = Not requested
+Time Program        = 11.772448 seconds
+Execution Date      = 2016/08/16;19:34
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 1.30;1.00;0.64
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc -fopenmp
+Compiler Flags      = -c -I../..//common -O3   -DFORCE_TIED_TASKS -I.
+Linker              = gcc -fopenmp
+Linker Flags        = -O3   
+Computing N-Queens algorithm (n=13)  completed!
+
+Program             = N Queens
+Parameters          = N=13
+Model               = Serial
+Embedded cut-off    = none
+# of Threads        = 1
+Verification        = Not requested
+Time Program        = 5.843665 seconds
+Execution Date      = 2016/08/16;19:34
+Execution Message   = 
+Architecture        = Linux-x86_64;8
+Load Avg [1:5:15]   = 1.20;0.98;0.64
+Compilation Date    = 2016/08/15;15:24
+Compilation Message = 
+Compiler            = gcc
+Compiler Flags      = -c -I../..//common -O3    -I.
+Linker              = gcc
+Linker Flags        = -O3   
+-----------------------
+-----------------------
