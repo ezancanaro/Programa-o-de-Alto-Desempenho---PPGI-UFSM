@@ -33,6 +33,8 @@ Os testes foram executados em uma máquina executando o sistema Linux com OpenMP
 
 ##Métricas coletadas##
 
+![metricas](metricas.png "Tempos de execução em segundos e Speedup")
+
 Nas tabelas os melhores valores foram coloridos com o verde, enquanto os piores valores são representados pelo laranja escuro.
         
 O programa das N rainhas é resolvido com 7 variações durante a execução do código. Essas variações são no modelo utilizado para as “tasks” do OpenMP e no “cuttoff” escolhido para o algoritmo de resolução do problema.
