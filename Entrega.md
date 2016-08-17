@@ -11,14 +11,14 @@
 
 Aplicação NQueens da suite BOTS que encontra soluções para o problema das N rainhas. Disponível em: https://pm.bsc.es/projects/bots .
 
-##O problema das N rainhas##
+###O problema das N rainhas###
         
 O problema das N rainhas é uma generalização do problema lógico das 8 rainhas. O problema das 8 rainhas prevê o posicionamento de 8 rainhas em um tabuleiro clássico de xadrez com dimensões 8 x 8, de forma que nenhuma das rainhas esteja sob ataque.
 
 Para o problema das N rainhas, observamos a mesma limitação ao posicionamento das rainhas, mas o tabuleiro agora possui as dimensões N x N.
 
 
-##Solução implementada##
+###Solução implementada###
 
  O algoritmo implementado faz a resolução do problema através de propagação e *backtracking*, posicionando uma rainha de cada vez em cada coluna do tabuleiro e observando as limitações estabelecidas pelas rainhas já posicionadas.
  
@@ -27,13 +27,13 @@ Para o problema das N rainhas, observamos a mesma limitação ao posicionamento 
  Estes passos são repetidos até que o algoritmo encontre todas as soluções possíveis para o tabuleiro e as rainhas em questão.
 
 
-##O ambiente de testes##
+###O ambiente de testes###
 Os testes foram executados em uma máquina executando o sistema Linux com OpenMP. Foram realizadas medições da execução do programa utilizando apenas 1 thread e medições utilizando 2 threads.
         
      As execuções encontraram soluções para um problema consistindo de 13 rainhas em um tabuleiro 13 x 13.
 
 
-##Métricas coletadas##
+##Desempenho##
 
 ![metricas](metricas.png "Tempos de execução em segundos e Speedup")
 
@@ -49,11 +49,11 @@ Estas colunas, tais como a coluna da execução serial não serão consideradas 
         
 O tempo de execução apresenta uma melhoria constante fora os casos apontados acima, de forma que os melhores tempo de execução foram encontrados para os casos em que o cuttoff manual foi utilizado.
 
-Em relação ao speedup, mais importante do que o maior speedup absoluto, é a média obtida através das 5 execuções. Esta média, nos dá uma ideia melhor do quão efetiva foi a mudança para o maior número de threads, visto que a observação apenas do maior valor da métrica pode favorecer execuções anômalas.
+Em relação ao speedup, mais importante do que o maior speedup absoluto, é a média obtida através das 5 execuções. Esta média nos dá uma ideia melhor do quão efetiva foi a mudança para o maior número de threads, visto que a observação apenas do maior valor da métrica pode favorecer execuções anômalas.
        
 Um exemplo disso é a segunda coluna da tabela, que apresenta duas execuções em que o speedup encontra-se no top 3 dos valores obtidos, porém as demais execuções apresentam um valor muito menos impressionante. Esta coluna apreseta a segunda pior média de speedup das quatro colunas em que esta métrica foi positiva.
 
-Já as colunas 3 e 5 apresentam quatro altos valores para o speedup e apenas um valor mediano.
+Já as colunas 3 e 5 apresentam quatro altos valores para o speedup e apenas um valor mediano, significando uma melhora do tempo de execução para um maior número de casos.
 
         
 ##Análise do código##
