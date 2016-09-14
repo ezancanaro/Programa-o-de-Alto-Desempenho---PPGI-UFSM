@@ -1,0 +1,268 @@
+Static: n
+Iniciando...
+Raio de Percolação (em Mpc): 2.000000Numero total de grupos: 1029 
+Grupos com massa maior que 1: 431 
+ Terminou 
+Tempos em microsegundos. Leitura: 744242 Friends: 376926524 Limpeza: 595
+Static: n
+Iniciando...
+Raio de Percolação (em Mpc): 2.000000Numero total de grupos: 1029 
+Grupos com massa maior que 1: 431 
+ Terminou 
+Tempos em microsegundos. Leitura: 735000 Friends: 373219682 Limpeza: 606
+Static: n
+Iniciando...
+Raio de Percolação (em Mpc): 2.000000Numero total de grupos: 1029 
+Grupos com massa maior que 1: 431 
+ Terminou 
+Tempos em microsegundos. Leitura: 742236 Friends: 372307326 Limpeza: 604
+
+
+Dynamic: n
+Iniciando...
+Raio de Percolação (em Mpc): 2.000000Numero total de grupos: 1029 
+Grupos com massa maior que 1: 431 
+ Terminou 
+Tempos em microsegundos. Leitura: 736738 Friends: 475582023 Limpeza: 595
+Dynamic: n
+Iniciando...
+Raio de Percolação (em Mpc): 2.000000Numero total de grupos: 1029 
+Grupos com massa maior que 1: 431 
+ Terminou 
+Tempos em microsegundos. Leitura: 733659 Friends: 474812135 Limpeza: 610
+Dynamic: n
+Iniciando...
+Raio de Percolação (em Mpc): 2.000000Numero total de grupos: 1029 
+Grupos com massa maior que 1: 431 
+ Terminou 
+Tempos em microsegundos. Leitura: 738200 Friends: 476676860 Limpeza: 605
+
+Guided: n
+Iniciando...
+Raio de Percolação (em Mpc): 2.000000Numero total de grupos: 1029 
+Grupos com massa maior que 1: 431 
+ Terminou 
+Tempos em microsegundos. Leitura: 735813 Friends: 330026724 Limpeza: 604
+Guided: n
+Iniciando...
+Raio de Percolação (em Mpc): 2.000000Numero total de grupos: 1029 
+Grupos com massa maior que 1: 431 
+ Terminou 
+Tempos em microsegundos. Leitura: 659759 Friends: 330209081 Limpeza: 608
+Guided: n
+Iniciando...
+Raio de Percolação (em Mpc): 2.000000Numero total de grupos: 1029 
+Grupos com massa maior que 1: 431 
+ Terminou 
+Tempos em microsegundos. Leitura: 734197 Friends: 329693718 Limpeza: 604
+
+Serial: n
+Iniciando...
+Raio de Percolação (em Mpc): 2.000000 Numero total de grupos: 1029 
+Grupos com massa maior que 1: 431 
+ Terminou 
+Tempos em microsegundos. Leitura: 730537 Friends: 938704370 Limpeza: 608
+
+
+
+
+Static: n
+Iniciando...
+Raio de Percolação (em Mpc): 1.000000Numero total de grupos: 25772 
+Grupos com massa maior que 1: 10415 
+ Terminou 
+Tempos em microsegundos. Leitura: 738267 Friends: 340409829 Limpeza: 630
+Static: n
+Iniciando...
+Raio de Percolação (em Mpc): 1.000000Numero total de grupos: 25772 
+Grupos com massa maior que 1: 10415 
+ Terminou 
+Tempos em microsegundos. Leitura: 738684 Friends: 343720069 Limpeza: 598
+Static: n
+Iniciando...
+Raio de Percolação (em Mpc): 1.000000Numero total de grupos: 25772 
+Grupos com massa maior que 1: 10415 
+ Terminou 
+Tempos em microsegundos. Leitura: 736894 Friends: 341576908 Limpeza: 639
+
+
+Dynamic: n
+Iniciando...
+Raio de Percolação (em Mpc): 1.000000Numero total de grupos: 25772 
+Grupos com massa maior que 1: 10415 
+ Terminou 
+Tempos em microsegundos. Leitura: 736947 Friends: 411218134 Limpeza: 640
+Dynamic: n
+Iniciando...
+Raio de Percolação (em Mpc): 1.000000Numero total de grupos: 25772 
+Grupos com massa maior que 1: 10415 
+ Terminou 
+Tempos em microsegundos. Leitura: 736050 Friends: 401831630 Limpeza: 600
+Dynamic: n
+Iniciando...
+Raio de Percolação (em Mpc): 1.000000Numero total de grupos: 25772 
+Grupos com massa maior que 1: 10415 
+ Terminou 
+Tempos em microsegundos. Leitura: 740850 Friends: 401787728 Limpeza: 630
+
+
+
+Guided: n
+Iniciando...
+Raio de Percolação (em Mpc): 1.000000Numero total de grupos: 25772 
+Grupos com massa maior que 1: 10415 
+ Terminou 
+Tempos em microsegundos. Leitura: 735536 Friends: 291200463 Limpeza: 627
+Guided: n
+Iniciando...
+Raio de Percolação (em Mpc): 1.000000Numero total de grupos: 25772 
+Grupos com massa maior que 1: 10415 
+ Terminou 
+Tempos em microsegundos. Leitura: 739051 Friends: 292317010 Limpeza: 622
+Guided: n
+Iniciando...
+Raio de Percolação (em Mpc): 1.000000Numero total de grupos: 25772 
+Grupos com massa maior que 1: 10415 
+ Terminou 
+Tempos em microsegundos. Leitura: 740225 Friends: 291526673 Limpeza: 617
+
+Serial: n
+Iniciando...
+Raio de Percolação (em Mpc): 1.000000 Numero total de grupos: 25772 
+Grupos com massa maior que 1: 10415 
+ Terminou 
+Tempos em microsegundos. Leitura: 733778 Friends: 951200419 Limpeza: 623
+
+
+
+
+Static: n
+Iniciando...
+Raio de Percolação (em Mpc): 16.000000Numero total de grupos: 3 
+Grupos com massa maior que 1: 2 
+ Terminou 
+Tempos em microsegundos. Leitura: 735507 Friends: 191487015 Limpeza: 672
+Static: n
+Iniciando...
+Raio de Percolação (em Mpc): 16.000000Numero total de grupos: 3 
+Grupos com massa maior que 1: 2 
+ Terminou 
+Tempos em microsegundos. Leitura: 736507 Friends: 190903974 Limpeza: 671
+Static: n
+Iniciando...
+Raio de Percolação (em Mpc): 16.000000Numero total de grupos: 3 
+Grupos com massa maior que 1: 2 
+ Terminou 
+Tempos em microsegundos. Leitura: 738554 Friends: 192564442 Limpeza: 609
+
+Dynamic: n
+Iniciando...
+Raio de Percolação (em Mpc): 16.000000Numero total de grupos: 3 
+Grupos com massa maior que 1: 2 
+ Terminou 
+Tempos em microsegundos. Leitura: 735371 Friends: 323330628 Limpeza: 620
+Dynamic: n
+Iniciando...
+Raio de Percolação (em Mpc): 16.000000Numero total de grupos: 3 
+Grupos com massa maior que 1: 2 
+ Terminou 
+Tempos em microsegundos. Leitura: 737753 Friends: 323648456 Limpeza: 621
+Dynamic: n
+Iniciando...
+Raio de Percolação (em Mpc): 16.000000Numero total de grupos: 3 
+Grupos com massa maior que 1: 2 
+ Terminou 
+Tempos em microsegundos. Leitura: 739770 Friends: 323601715 Limpeza: 627
+
+Guided: n
+Iniciando...
+Raio de Percolação (em Mpc): 16.000000Numero total de grupos: 3 
+Grupos com massa maior que 1: 2 
+ Terminou 
+Tempos em microsegundos. Leitura: 734144 Friends: 198623535 Limpeza: 621
+Guided: n
+Iniciando...
+Raio de Percolação (em Mpc): 16.000000Numero total de grupos: 3 
+Grupos com massa maior que 1: 2 
+ Terminou 
+Tempos em microsegundos. Leitura: 735211 Friends: 196119700 Limpeza: 611
+Guided: n
+Iniciando...
+Raio de Percolação (em Mpc): 16.000000Numero total de grupos: 3 
+Grupos com massa maior que 1: 2 
+ Terminou 
+Tempos em microsegundos. Leitura: 735028 Friends: 196305066 Limpeza: 609
+
+
+Serial: n
+Iniciando...
+Raio de Percolação (em Mpc): 16.000000 Numero total de grupos: 3 
+Grupos com massa maior que 1: 2 
+ Terminou 
+Tempos em microsegundos. Leitura: 733017 Friends: 297991135 Limpeza: 615
+
+
+Static: n
+Iniciando...
+Raio de Percolação (em Mpc): 32.000000Numero total de grupos: 2 
+Grupos com massa maior que 1: 1 
+ Terminou 
+Tempos em microsegundos. Leitura: 738929 Friends: 58403067 Limpeza: 615
+Static: n
+Iniciando...
+Raio de Percolação (em Mpc): 32.000000Numero total de grupos: 2 
+Grupos com massa maior que 1: 1 
+ Terminou 
+Tempos em microsegundos. Leitura: 736709 Friends: 58356910 Limpeza: 603
+Static: n
+Iniciando...
+Raio de Percolação (em Mpc): 32.000000Numero total de grupos: 2 
+Grupos com massa maior que 1: 1 
+ Terminou 
+Tempos em microsegundos. Leitura: 660644 Friends: 58523563 Limpeza: 612
+
+Dynamic: n
+Iniciando...
+Raio de Percolação (em Mpc): 32.000000Numero total de grupos: 2 
+Grupos com massa maior que 1: 1 
+ Terminou 
+Tempos em microsegundos. Leitura: 732767 Friends: 380714435 Limpeza: 613
+Dynamic: n
+Iniciando...
+Raio de Percolação (em Mpc): 32.000000Numero total de grupos: 2 
+Grupos com massa maior que 1: 1 
+ Terminou 
+Tempos em microsegundos. Leitura: 738692 Friends: 379990341 Limpeza: 620
+Dynamic: n
+Iniciando...
+Raio de Percolação (em Mpc): 32.000000Numero total de grupos: 2 
+Grupos com massa maior que 1: 1 
+ Terminou 
+Tempos em microsegundos. Leitura: 738468 Friends: 380070636 Limpeza: 608
+
+
+Guided: n
+Iniciando...
+Raio de Percolação (em Mpc): 32.000000Numero total de grupos: 2 
+Grupos com massa maior que 1: 1 
+ Terminou 
+Tempos em microsegundos. Leitura: 737265 Friends: 59418552 Limpeza: 609
+Guided: n
+Iniciando...
+Raio de Percolação (em Mpc): 32.000000Numero total de grupos: 2 
+Grupos com massa maior que 1: 1 
+ Terminou 
+Tempos em microsegundos. Leitura: 734033 Friends: 59410682 Limpeza: 626
+Guided: n
+Iniciando...
+Raio de Percolação (em Mpc): 32.000000Numero total de grupos: 2 
+Grupos com massa maior que 1: 1 
+ Terminou 
+Tempos em microsegundos. Leitura: 735335 Friends: 59642738 Limpeza: 608
+
+Serial: n
+Iniciando...
+Raio de Percolação (em Mpc): 32.000000 Numero total de grupos: 2 
+Grupos com massa maior que 1: 1 
+ Terminou 
+Tempos em microsegundos. Leitura: 731828 Friends: 219565154 Limpeza: 615

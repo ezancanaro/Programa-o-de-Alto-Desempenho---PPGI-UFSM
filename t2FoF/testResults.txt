@@ -1,0 +1,76 @@
+Static: n
+Static: n
+Iniciando...
+Raio de Percolação (em Mpc): 4.000000Numero total de grupos: 4 
+Grupos com massa maior que 1: 3 
+ Terminou 
+Tempos em microsegundos. Leitura: 734377 Friends: 386469452 Limpeza: 577
+
+Dynamic: n
+Iniciando...
+Raio de Percolação (em Mpc): 4.000000Numero total de grupos: 4 
+Grupos com massa maior que 1: 3 
+ Terminou 
+Tempos em microsegundos. Leitura: 732768 Friends: 473264816 Limpeza: 582
+
+Guided: n
+Iniciando...
+Raio de Percolação (em Mpc): 4.000000Numero total de grupos: 4 
+Grupos com massa maior que 1: 3 
+ Terminou 
+Tempos em microsegundos. Leitura: 732847 Friends: 356612829 Limpeza: 583
+
+Static: n
+Iniciando...
+Raio de Percolação (em Mpc): 4.000000Numero total de grupos: 4 
+Grupos com massa maior que 1: 3 
+ Terminou 
+Tempos em microsegundos. Leitura: 739579 Friends: 386558230 Limpeza: 578
+
+Dynamic: n
+Iniciando...
+Raio de Percolação (em Mpc): 4.000000Numero total de grupos: 4 
+Grupos com massa maior que 1: 3 
+ Terminou 
+Tempos em microsegundos. Leitura: 733454 Friends: 474056372 Limpeza: 586
+ 
+Guided: n
+Iniciando...
+Raio de Percolação (em Mpc): 4.000000Numero total de grupos: 4 
+Grupos com massa maior que 1: 3 
+ Terminou 
+Tempos em microsegundos. Leitura: 736492 Friends: 358370063 Limpeza: 580
+
+Static: n
+Iniciando...
+Raio de Percolação (em Mpc): 4.000000Numero total de grupos: 4 
+Grupos com massa maior que 1: 3 
+ Terminou 
+Tempos em microsegundos. Leitura: 736134 Friends: 384838033 Limpeza: 605
+
+Dynamic: n
+Iniciando...
+Raio de Percolação (em Mpc): 4.000000Numero total de grupos: 4 
+Grupos com massa maior que 1: 3 
+ Terminou 
+Tempos em microsegundos. Leitura: 741069 Friends: 473702078 Limpeza: 595
+
+Guided: n
+Iniciando...
+Raio de Percolação (em Mpc): 4.000000Numero total de grupos: 4 
+Grupos com massa maior que 1: 3 
+ Terminou 
+Tempos em microsegundos. Leitura: 742294 Friends: 359114936 Limpeza: 599
+
+Serial: n
+Iniciando...
+Raio de Percolação (em Mpc): 4.000000 Numero total de grupos: 4 
+Grupos com massa maior que 1: 3 
+ Terminou 
+Tempos em microsegundos. Leitura: 732689 Friends: 813345729 Limpeza: 597
+
+
+
+STATIC:  386469452 + 386558230 + 384838033 = 385955238.333
+DYNAMIC: (473264816 + 474056372 + 473702078) / 3 = 473674422
+GUIDED: = (356612829 + 358370063 + 359114936) / 3 = 358032609.333
