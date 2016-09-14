@@ -82,3 +82,9 @@ Os dados da tabela mostram que, para os testes realizados, o escalonamento guiad
 Estes resultados contrariam as expectativas iniciais, visto que o escalonamento estático apresentou um desempenho próximo do método guiado. O baixo desempenho do método dinâmico deve-se ao *overhead* existente na atribuição dos blocos as threads, o que indica que o tamanho de blocos escolhido para os testes foi muito pequeno. 
 
 A hipótese que explica o baixo desempenho do método dinâmico é corroborada pelo desempenho do escalonamento guiado, aonde o tamanho dos blocos de trabalho é determinado pelo compilador. Este desempenho também corrobora parte da hipótese inicial sobre o desempenho, visto que a atribuição de blocos de trabalho para as threads executadas neste método foi melhor do que a atribuição de blocos fixos presente no método estático. 
+
+##Links de referência##
+
+https://software.intel.com/en-us/articles/efficient-parallelization
+
+http://openmp.org/mp-documents/omp-hands-on-SC08.pdf
