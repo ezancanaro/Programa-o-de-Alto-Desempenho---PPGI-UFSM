@@ -40,7 +40,7 @@ O único método presente nesta classe é um construtor.
 
 A classe segmento representa uma fração do espaço tridimensional que engloba os corpos analisados. Armazena uma árvore que representaria os corpos presentes nesta fração do espaço, bem como um vetor de grupos contendo os grupos daquele segmento.
 
-Esta classe não foi implementada nem utilizada no programa analisado.
+Esta classe não possui métodos implementados.
 
 ### Corpo.cpp
 
@@ -75,12 +75,31 @@ A criação destas árvores continua a segmentação do espaço tridimensional, 
 
 ![octTrees](octTrees.png "Visualização 2D das divisões octais.")
 
-Sabemos que o programa divide os corpos em segmentos e que o agrupamento é primeiramente realizado de forma independente em cada um destes fragmentos do espaço. Este agrupamento é realizado durante a inclusão de um novo corpo na árvore existente dentro de cada segmento. Antes de explicar o processo de adição dos nós, é necessário porém que expliquemos o conceito de **fronteira** que aparecerá durante o texto.
+Sabemos que o programa divide os corpos em segmentos e que o agrupamento é primeiramente realizado de forma independente em cada um destes fragmentos do espaço. Este agrupamento é realizado durante a inclusão de um novo corpo na árvore existente dentro de cada segmento. Antes de explicar o processo de adição dos nós, é necessário porém que expliquemos o conceito de **fronteira** no âmbito deste algoritmo, já que o mesmo aparecerá durante o texto.
+
+####Fronteira
 
 Sabemos pela definição da palavra que fronteira é uma região que encontra-se nos limites entre duas áreas. Neste algoritmo não é diferente, a área de fronteira é toda aquela próxima o suficiente dos limites do segmento no qual o corpo se encontra. Esta definição levanta a questão de como definimos qual distância representa próxmia o suficiente dos limites. Para o propósito tratado aqui, um corpo está próximo o suficiente dos limites de um segmento quando existe a possibilidade de que este corpo seja agrupado com um corpo de fora deste segmento. Em termos matemáticos: 
 
-Considerando um espaço 3D, onde **limX**,**limY** e **limZ** representam os limites de um segmento dentro deste espaço e **r** é um raio qualquer, um objeto de coordenadas (x,y,z) encontra-se próximo o suficiente dos limites quando: **(x + raio >= limX) OU **(y + raio >= limY) OU **(z + raio >= limZ).
+Considerando um espaço 3D, onde **limX**,**limY** e **limZ** representam os limites de um segmento dentro deste espaço e **r** é um raio qualquer, um objeto de coordenadas (x,y,z) encontra-se próximo o suficiente dos limites quando: *_(x + raio >= limX)_* OU *_(y + raio >= limY)_* OU *_(z + raio >= limZ)_*.
 
+Conhecendo a aplicação de fronteira neste programa, podemos partir para o funcionamento do restante do código. De início, são calculados os valores máximos e mínimos locais para as coordenadas dos corpos do segmento. Estes valores servem também para o cálculo dos limites da área de fronteira (max - raio e min + raio). Têm-se início a construção da árvore, através da instanciação de um objeto Corpo para representar o objeto da entrada, bem como de um objeto No contendo um ponteiro para tal Corpo, utilizando como raiz da árvore o primeiro corpo analisado. Caso este corpo esteja na [fronteira](####fronteira) do segmento, é alocado no vetor de fronteira da árvore. Segue um laço que cria um objeto Corpo para cada objeto da entrada e o adiciona na árvore através do método *add da classe No.
+
+É sensato lembrar aqui que cada nó da árvore possui sua área de fronteira, já que cada nível dela representa uma subdivisão em um espaço cada vez menor. O método add pode agir de forma recursiva, iniciando no nó raíz da árvore e a percorrendo para encontrar a posição na qual um corpo deve ser alocado.
+
+Para cada corpo adicionado a árvore, seguem-se os testes realizados para o seu posicionamento:
+O algoritmo testa se o raio é maior que as coordenadas do cubo, o que significa que o corpo está envolto em um segmento muito pequeno.
+Neste caso, são feitos testes com os nós já armazenados na fronteira do nó ao qual este é anexado, comparando as distâncias de forma a agrupar os nós caso estejam próximos. Este nó é então adicionado a fronteira e marcado como não populado, ou seja, não possuirá nós filhos. Executando estes passos, o método add retorna ao ponto em que foi chamado.
+
+Caso o corpo não tenha caído no caso acima, o algoritmo testa então se este corpo está na fronteira do nó ao qual será anexado. Caso esteja, ele é adicionado ao vetor de fronteira.
+
+Caso o corpo esteja sendo anexado a um nó populado, o algoritmo calcula os limites da próxima subdivisão de acordo com as coordenadas do corpo, de forma a determinar em qual dos 8 subespaços este corpo será alocado. Neste caso, será criado um nó representante deste corpo (chamamos nó2, para evitar confusão), alocado como um filho do nó populado, na posição determinada pelo passo anterior. Testa-se também se o corpo encontra-se na fronteira deste novo nó criado, sendo alocado na fronteira deste em caso positivo. O algoritmo marca ainda o nó original como não populado.
+
+A seguir, o algoritmo calcula em qual subdivisão o corpo deverá ser alocado (se o nó já é populado, esse passo acontece repetido). Caso já exista um filho na posição calculada, verifica-se se o novo corpo está na região de fronteira deste filho, alocando uma flag *true* em caso positivo.
+
+O algoritmo verifica o agrupamento entre todos os corpos vizinhos do novo corpo sendo alocado a árvore, modificando os identificadores de grupo quando necessário. Caso o corpo tenha sido detectado como de fronteira em algum dos passos anteriores, verifica-se o agrupamento também com os nós da fronteira.
+
+Caso não exista um filho na posição calculada, aloca-se um objeto nó para este corpo, são calculados os limites da sua subdivisão e se este corpo encontra-se na fronteira da sua subdivisão. Este novo nó é então alocado como filho do nó original na posição calculada. Caso já exista um filho, o algoritmo tenta adicionar este corpo no nó filho através da função add. 
 
 
 
@@ -100,24 +119,29 @@ Desta forma, o algoritmo faz o agrupamento através da propagação, agrupando p
 Os testes foram executados em uma máquina com as seguintes configurações:
 
 
-- Windows 10x64.
-- Intel Core i5-4210U CPU @1.70GHz 2.40GHz
-- Memória RAM: 8GB
+- ?.
+- ?.
+- Memória RAM:?. 
 
 
-Foram executados testes com o mesmo arquivo de entrada, que apresenta 318133 partículas, utilizando como raio de percolação os valores: 2,4,16,32.
+Foram executados testes com o mesmo arquivo de entrada, que apresenta 318133 partículas, utilizando como raio de percolação os valores: 2,4,16,32. Para uma melhor representação dos tempos, foram realizadas 4 execuções de cada método e compilado um valor médio para o tempo de cada.
 
 
 Para a medição dos tempos de execução, foi utilizada a biblioteca *chronus* da linguagem C++, utilizando uma escala de microssegundos. Os resultados obtidos são mostrados na tabela abaixo, com a conversão do tempo em segundos para facilitar a visualização.
 
 
-| Percolação | Nº de grupos | Tempo de leitura(s)  | Tempo de agrupamento(s) |
-| -------------- |:-----------------:| -----------------------:|-------------------------------:|
-| 1                 | 25772            |  1,107303              |   990,030889 |
-| 2                 | 1029              |  1,110522              |   920,580808 |
-| 4                 | 4                    |  1,433968              |   830,558760 |
-| 16               | 3                    |  1,127073              |   339,744321 |
-| 32               |  2                   |  1,131312              |   282,424131 |
+| Percolação |Tempo Serial(s)|Tempo Static(s)|Tempo Dynamic(s)|Tempo Guided(s)|Speedup Static|Speedup Dynamic|Speedup Guided|
+| ---------- |:------------:| --------------:|---------------:|--------------:|:------------:|:-------------:|:------------:|
+| 1          |  951,200419  | 341,902268     | 404,945830     | 291,681382    | 2.7821       | 2.3490        | 3.2610
+| 2          |  938,704370  | 374,151177     | 475,690339     | 329,976507    | 2.5089       | 1.9733        | 2.8448  
+| 4          | 813,345729   | 385,955238     | 473,674422     | 358,032609    | 2.1073       | 1.7171        | 2.2717
+| 16         |  297,991135  | 191,651810     | 323,526933     | 197,016100    | 1.5548       | 0.9211        | 1.5125
+| 32         |  219,565154  | 584,27846      | 266,237279     | 594,90657     | 0.3758       | 0.8247        | 0.3691
+
 
 
 A tabela dos resultados mostra uma consistência na redução do tempo de execução do algoritmo de classificação conforme o raio de percolação é aumentado e o número de grupos classificados diminui.
+
+##Referências
+
+SPRINGEL, Volker; YOSHIDA, Naoki; WHITE, Simon DM. GADGET: a code for collisionless and gasdynamical cosmological simulations. New Astronomy, v. 6, n. 2, p. 79-117, 2001. [Link](http://arxiv.org/pdf/astro-ph/0003162v3.pdf)
