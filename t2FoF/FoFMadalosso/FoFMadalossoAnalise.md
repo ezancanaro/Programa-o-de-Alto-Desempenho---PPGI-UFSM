@@ -26,21 +26,21 @@ Em seguida serão descritas as classes presentes neste programa.
 
 ### Grupo.cpp
 	
-	Classe que representa os grupos formados durante o algoritmo. Armazena um valor *int* representativo do identificador do grupo e um vetor de ponteiros para os corpos membros deste grupo.
+Classe que representa os grupos formados durante o algoritmo. Armazena um valor *int* representativo do identificador do grupo e um vetor de ponteiros para os corpos membros deste grupo.
 
-	Além do construtor, esta classe implementa também um método para adicionar novos corpos no grupo.
+Além do construtor, esta classe implementa também um método para adicionar novos corpos no grupo.
 
 ### Tupla.cpp
 
-	Classe simples com o propósito de implementar a estrutura de tuplas na linguagem c++. Armazena uma combinação de *int* com Segmento, representando o número de grupos presente em cada segmento do espaço tridimensional.
+Classe simples com o propósito de implementar a estrutura de tuplas na linguagem c++. Armazena uma combinação de *int* com Segmento, representando o número de grupos presente em cada segmento do espaço tridimensional.
 
-	O único método presente nesta classe é um construtor.
+O único método presente nesta classe é um construtor.
 
 ### Segmento.cpp
 
-	A classe segmento representa uma fração do espaço tridimensional que engloba os corpos analisados. Armazena uma árvore que representaria os corpos presentes nesta fração do espaço, bem como um vetor de grupos contendo os grupos daquele segmento.
+A classe segmento representa uma fração do espaço tridimensional que engloba os corpos analisados. Armazena uma árvore que representaria os corpos presentes nesta fração do espaço, bem como um vetor de grupos contendo os grupos daquele segmento.
 
-	Esta classe não foi implementada nem utilizada no programa analisado.
+Esta classe não foi implementada nem utilizada no programa analisado.
 
 ### Corpo.cpp
 
