@@ -44,36 +44,44 @@ Esta classe não foi implementada nem utilizada no programa analisado.
 
 ### Corpo.cpp
 
-	A classe corpo representa um dos objetos sendo agrupados pelo programa. Esta classe armazena valores *float* representativos das coordenadas **x**,**y** e **z** do objeto, bem como dois valores *int* representativos dos identificadores do objeto e do grupo ao qual ele foi alocado.
+A classe corpo representa um dos objetos sendo agrupados pelo programa. Esta classe armazena valores *float* representativos das coordenadas **x**,**y** e **z** do objeto, bem como dois valores *int* representativos dos identificadores do objeto e do grupo ao qual ele foi alocado.
 
-	Apenas o construtor foi implementado nesta classe.
+Apenas o construtor foi implementado nesta classe.
 
 ### No.cpp
 
-	Esta classe é a mais complexa do programa, tanto que é aqui que o algoritmo realiza a primeira passagem de testes para o agrupamento Friends of Friends. A classe representa um nó da árvore mencionada na classe Segmento e armazena um ponteiro para um Corpo, valores *float* representativos de coordenadas máximas e mínimas, valores *float* representando valores máximos e mínimos para que um corpo encontre-se na **fronteira do corpo apontado por este nó. Armazena ainda valores *bool* que indicam se o nó é ou não populado e se possui o menor raio. Possui ainda um vetor de Nós com 8 posições denominado filhos. Por fim armazena dois valores *int* que representam o identificador do nó e o número de grupos.
+Esta classe é a mais complexa do programa, tanto que é aqui que o algoritmo realiza a primeira passagem de testes para o agrupamento Friends of Friends. A classe representa um nó da árvore mencionada na classe Segmento e armazena um ponteiro para um Corpo, valores *float* representativos de coordenadas máximas e mínimas, valores *float* representando valores máximos e mínimos para que um corpo encontre-se na **fronteira do corpo apontado por este nó. Armazena ainda valores *bool* que indicam se o nó é ou não populado e se possui o menor raio. Possui ainda um vetor de Nós com 8 posições denominado filhos. Por fim armazena dois valores *int* que representam o identificador do nó e o número de grupos.
 
-	Os métodos implementados nesta classe são:
-		#### ver
-			Verifica a distância entre dois corpos através da fórmula distância = sqrt((c1.x-c2.x)² + (c1.y-c2.y)² + (c1.z-c2.z)²)
+Os métodos implementados nesta classe são:
+#### ver
+Verifica a distância entre dois corpos através da fórmula distância = sqrt((c1.x-c2.x)² + (c1.y-c2.y)² + (c1.z-c2.z)²)
 
-		#### add
-			Adiciona um novo nó na subárvore. O processo de inclusão de um novo nó na árvore dá início aos testes de verificação de agrupamento dos corpos, logo seu funcionamento será discutido em detalhes em uma seção subsequente quando discutimos o funcionamento concreto deste programa.
+#### add
+Adiciona um novo nó na subárvore. O processo de inclusão de um novo nó na árvore dá início aos testes de verificação de agrupamento dos corpos, logo seu funcionamento será discutido em detalhes em uma seção subsequente quando discutimos o funcionamento concreto deste programa.
 
-		#### relabel
-			Faz a troca do identificar de grupo de um determinado nó caso o algoritmo determine que o mesmo tenha sido alocado a um grupo que, na realidade, é subgrupo de um agrupamento maior.	
+#### relabel
+Faz a troca do identificar de grupo de um determinado nó caso o algoritmo determine que o mesmo tenha sido alocado a um grupo que, na realidade, é subgrupo de um agrupamento maior.	
 
 
 ## Funcionamento do Algoritmo
 
-	A proposta básica do algoritmo é subdividir o espaço tridimensional que engloba os corpos e realizar o agrupamento em cada um destes segmentos de forma individual, realizando ao final a comparação dos corpos nas extremidades destes segmentos para verificar se existem grupos com corpos em mais de um segmento.
+A proposta básica do algoritmo é subdividir o espaço tridimensional que engloba os corpos e realizar o agrupamento em cada um destes segmentos de forma individual, realizando ao final a comparação dos corpos nas extremidades destes segmentos para verificar se existem grupos com corpos em mais de um segmento.
 
-	Para fazer a divisão, o algoritmo calcula as coordenadas máximas e mínimas de todos os corpos da entrada, circundando os objetos com um cubo virtual. Sabendo os valores da extremidade, o algoritmo calcula também valores medianos para cada coordenada da forma [min + ((max - min) / 2)]. Com estes valores medianos, é feita uma divisão em 8 semi-cubos, denominados de segmentos.
+Para fazer a divisão, o algoritmo calcula as coordenadas máximas e mínimas de todos os corpos da entrada, circundando os objetos com um cubo virtual. Sabendo os valores da extremidade, o algoritmo calcula também valores medianos para cada coordenada da forma [min + ((max - min) / 2)]. Com estes valores medianos, é feita uma divisão em 8 semi-cubos, denominados de segmentos.
 
-	Com estes segmentos determinados, a entrada é então dividida em função das coordenadas dos corpos ali representados, de forma que cada um seja alocado a um destes segmentos. Com a entrada dividida, inica-se a criação das árvores que armazenarão os corpos e realizarão o agrupamento dos mesmos. Como o espaço foi dividido em 8 segmentos, serão criadas 8 árvores individuais, o que permite a paralelização deste fragmento do programa. 
+Com estes segmentos determinados, a entrada é então dividida em função das coordenadas dos corpos ali representados, de forma que cada um seja alocado a um destes segmentos. Com a entrada dividida, inica-se a criação das árvores que armazenarão os corpos e realizarão o agrupamento dos mesmos. Como o espaço foi dividido em 8 segmentos, serão criadas 8 árvores individuais, o que permite a paralelização deste fragmento do programa. 
 
-	A criação destas árvores continua a segmentação do espaço tridimensional, criando, para cada semi-cubo obtido anteriormente, 8 novos semi-cubos, de forma que o último semi-cubo criado contenha apenas 1 corpo em seu interior. Estas árvores são descritas como *oct-trees* devido a esta propriedade. Uma visualização em 2 dimensões ajuda a compreender o processo de divisão realizado por estas árvores e é encontrado na imagem obtida do artigo (Springel et al.).
+A criação destas árvores continua a segmentação do espaço tridimensional, criando, para cada semi-cubo obtido anteriormente, 8 novos semi-cubos, de forma que o último semi-cubo criado contenha apenas 1 corpo em seu interior. Estas árvores são descritas como *oct-trees* devido a esta propriedade. Uma visualização em 2 dimensões ajuda a compreender o processo de divisão realizado por estas árvores e é encontrado na imagem obtida do artigo (Springel et al.).
 
 ![octTrees](octTrees.png "Visualização 2D das divisões octais.")
+
+Sabemos que o programa divide os corpos em segmentos e que o agrupamento é primeiramente realizado de forma independente em cada um destes fragmentos do espaço. Este agrupamento é realizado durante a inclusão de um novo corpo na árvore existente dentro de cada segmento. Antes de explicar o processo de adição dos nós, é necessário porém que expliquemos o conceito de **fronteira** que aparecerá durante o texto.
+
+Sabemos pela definição da palavra que fronteira é uma região que encontra-se nos limites entre duas áreas. Neste algoritmo não é diferente, a área de fronteira é toda aquela próxima o suficiente dos limites do segmento no qual o corpo se encontra. Esta definição levanta a questão de como definimos qual distância representa próxmia o suficiente dos limites. Para o propósito tratado aqui, um corpo está próximo o suficiente dos limites de um segmento quando existe a possibilidade de que este corpo seja agrupado com um corpo de fora deste segmento. Em termos matemáticos: 
+
+Considerando um espaço 3D, onde **limX**,**limY** e **limZ** representam os limites de um segmento dentro deste espaço e **r** é um raio qualquer, um objeto de coordenadas (x,y,z) encontra-se próximo o suficiente dos limites quando: **(x + raio >= limX) OU **(y + raio >= limY) OU **(z + raio >= limZ).
+
+
 
 
 TODO!!!!! REPLACE ALL THIS
