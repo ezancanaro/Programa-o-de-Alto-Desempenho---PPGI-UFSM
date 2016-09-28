@@ -134,11 +134,13 @@ Obs: Na tabela, o speedup(O) foi calculado com base no tempo de execução do al
 Observando a tabela de resultados, pode-se concluir que o tempo da execução serial sofre muito com um raio menor. Já as execuções com Threads obtiveram um desempenho muito melhor, esse ganho se dá ao fato da grande palelização dos cálculos. Entretanto, os testes com 4 threads foram melhores que os de 8. Sendo assim, para otimizar de forma melhor ainda o resultado do algoritmo deve-se levar em consideração o balanço entre desempenho e custo.
 
 Os resultados do agrupamento realizado por este algoritmo diferem radicalmente dos resultados encontrados com a execução do algoritmo original analisado anteriormente, não só na questão tempo, mas também na questão grupos. A tabela abaixo evidencia a diferença presente no agrupamento de ambos os algoritmos.
-Raio|Nº de grupos Original | Nº de grupos novo|
-:--:|:--------------------:|:----------------:|
-  1 | 25772				   |   20917
- 0.5| 64502				   |   60393
- 0.3| 94914				   |   90301
+
+
+|Raio|Nº de grupos Original | Nº de grupos novo|
+|:--:|:--------------------:|:----------------:|
+|  1 | 25772				   |   20917
+| 0.5| 64502				   |   60393
+| 0.3| 94914				   |   90301
 
 É evidente pela tabela que os algoritmos não realizam o mesmo agrupamento, embora as partículas e o raio de entrada sejam exatamente iguais. Esta discrepância pode apontar que existem erros na realização do agrupamento de um dos algoritmos, visto que a técnica Friends of Friends deveria garantir sempre um agrupamento constante para um conjunto de dados e um determinado raio. Como explicar este comportamento?
 
