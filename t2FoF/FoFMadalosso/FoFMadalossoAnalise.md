@@ -116,7 +116,7 @@ Os testes foram executados em uma máquina com as seguintes configurações:
 
 - Processador: Intel Xeon CPU ES620 @2.40GHz 8 cores;
 - Sistema operacional: Debian 3.2.73-2+deb7u2 x86_64 GNU/Linux;
-- Memória RAM: 12Mb. 
+- Memória RAM: 12Gb. 
 
 
 Foram executados testes com o mesmo arquivo de entrada, que apresenta 318133 partículas, utilizando como raio de percolação os valores: 2,4,16,32. Para uma melhor representação dos tempos, foram realizadas 4 execuções de cada método e compilado um valor médio para o tempo de cada.
