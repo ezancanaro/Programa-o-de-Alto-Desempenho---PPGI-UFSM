@@ -85,6 +85,8 @@ Considerando um espaço 3D, onde **limX**,**limY** e **limZ** representam os lim
 
 Conhecendo a aplicação de fronteira neste programa, podemos partir para o funcionamento do restante do código. De início, são calculados os valores máximos e mínimos locais para as coordenadas dos corpos do segmento. Estes valores servem também para o cálculo dos limites da área de fronteira (max - raio e min + raio). Têm-se início a construção da árvore, através da instanciação de um objeto Corpo para representar o objeto da entrada, bem como de um objeto No contendo um ponteiro para tal Corpo, utilizando como raiz da árvore o primeiro corpo analisado. Caso este corpo esteja na [fronteira](####fronteira) do segmento, é alocado no vetor de fronteira da árvore. Segue um laço que cria um objeto Corpo para cada objeto da entrada e o adiciona na árvore através do método *add da classe No.
 
+####Adicionando nós na árvore
+
 É sensato lembrar aqui que cada nó da árvore possui sua área de fronteira, já que cada nível dela representa uma subdivisão em um espaço cada vez menor. O método add pode agir de forma recursiva, iniciando no nó raíz da árvore e a percorrendo para encontrar a posição na qual um corpo deve ser alocado.
 
 Para cada corpo adicionado a árvore, seguem-se os testes realizados para o seu posicionamento:
@@ -103,14 +105,7 @@ Caso não exista um filho na posição calculada, aloca-se um objeto nó para es
 
 
 
-TODO!!!!! REPLACE ALL THIS
- 1. Se a partícula tiver designação do grupo **k**, continua para o próximo ponto, caso contrário repete este teste com a próxima partícula do vetor.
- 2. Repete os testes seguintes para toda partícula da lista após a partícula **i (i + 1)**, nomeando-a **l**.
-..1.  Se a partícula ainda não tem nenhum grupo assinalado, segue ao próximo item, caso contrário testa a próxima partícula.
- ..2. Se a distância entre as partículas **i** e **j** for menor ou igual ao raio de percolação, esta partícula é assinalada ao grupo **k**.
-
-
-Desta forma, o algoritmo faz o agrupamento através da propagação, agrupando primeiramente todas as partículas próximas (**distância <= raio de percolação**) da partícula inicial **i** e em seguida todas as partículas próximas daquelas que foram agrupadas pelo primeiro passo.
+TODO!!!!! Completar o funcionamento do algoritmo. Comparação entre segmentos, fronteiras e etc.
 
 
 ##Sobre os testes                
@@ -119,28 +114,34 @@ Desta forma, o algoritmo faz o agrupamento através da propagação, agrupando p
 Os testes foram executados em uma máquina com as seguintes configurações:
 
 
-- ?.
-- ?.
-- Memória RAM:?. 
+- Processador: Intel Xeon CPU ES620 @2.40GHz 8 cores;
+- Sistema operacional: Debian 3.2.73-2+deb7u2 x86_64 GNU/Linux;
+- Memória RAM: 12Mb. 
 
 
 Foram executados testes com o mesmo arquivo de entrada, que apresenta 318133 partículas, utilizando como raio de percolação os valores: 2,4,16,32. Para uma melhor representação dos tempos, foram realizadas 4 execuções de cada método e compilado um valor médio para o tempo de cada.
 
 
-Para a medição dos tempos de execução, foi utilizada a biblioteca *chronus* da linguagem C++, utilizando uma escala de microssegundos. Os resultados obtidos são mostrados na tabela abaixo, com a conversão do tempo em segundos para facilitar a visualização.
+| Raio | FoFOriginal(s)| Serial(s)  | 8 Threads(s) | 4 Threads(s) | Speedup(O) 8T | Speedup(O) 4T | Speedup 8 | Speedup 4|
+| ---- | ------------: |-----------:|------------: | -----------: | ---------: | ---------: | ---------:| --------:|
+| 1    |  954,832650   | 368,271043 |252,2598610   |  209,4751176 |     3,7851 | 4,5582		| 1,4599    | 1,7581
+| 0,50 | 1161,413917   | 137,098786 |73,6095873    |   54,6247256 |    15,7780 | 21,2616    | 1,8625    | 2.5098
+| 0,3  | 1208,105630   | 76,0197616 |39,7229296*   |  27,4431996* |    30,4133 | 44,0220    | 1,9138    | 2.7701 
 
+Obs: Na tabela, o speedup(O) foi calculado com base no tempo de execução do algoritmo original. Os demais utilizaram a execução serial deste novo algoritmo.
 
-| Percolação |Tempo Serial(s)|Tempo Static(s)|Tempo Dynamic(s)|Tempo Guided(s)|Speedup Static|Speedup Dynamic|Speedup Guided|
-| ---------- |:------------:| --------------:|---------------:|--------------:|:------------:|:-------------:|:------------:|
-| 1          |  951,200419  | 341,902268     | 404,945830     | 291,681382    | 2.7821       | 2.3490        | 3.2610
-| 2          |  938,704370  | 374,151177     | 475,690339     | 329,976507    | 2.5089       | 1.9733        | 2.8448  
-| 4          | 813,345729   | 385,955238     | 473,674422     | 358,032609    | 2.1073       | 1.7171        | 2.2717
-| 16         |  297,991135  | 191,651810     | 323,526933     | 197,016100    | 1.5548       | 0.9211        | 1.5125
-| 32         |  219,565154  | 584,27846      | 266,237279     | 594,90657     | 0.3758       | 0.8247        | 0.3691
+*Das 3 execuções usadas para calcular a média, a primeira obteve um tempo de execução de 50% maior que as restantes.
+Observando a tabela de resultados, pode-se concluir que o tempo da execução serial sofre muito com um raio menor. Já as execuções com Threads obtiveram um desempenho muito melhor, esse ganho se dá ao fato da grande palelização dos cálculos. Entretanto, os testes com 4 threads foram melhores que os de 8. Sendo assim, para otimizar de forma melhor ainda o resultado do algoritmo deve-se levar em consideração o balanço entre desempenho e custo.
 
+Os resultados do agrupamento realizado por este algoritmo diferem radicalmente dos resultados encontrados com a execução do algoritmo original analisado anteriormente, não só na questão tempo, mas também na questão grupos. A tabela abaixo evidencia a diferença presente no agrupamento de ambos os algoritmos.
+Raio|Nº de grupos Original | Nº de grupos novo|
+:--:|:--------------------:|:----------------:|
+  1 | 25772				   |   20917
+ 0.5| 64502				   |   60393
+ 0.3| 94914				   |   90301
 
+É evidente pela tabela que os algoritmos não realizam o mesmo agrupamento, embora as partículas e o raio de entrada sejam exatamente iguais. Esta discrepância pode apontar que existem erros na realização do agrupamento de um dos algoritmos, visto que a técnica Friends of Friends deveria garantir sempre um agrupamento constante para um conjunto de dados e um determinado raio. Como explicar este comportamento?
 
-A tabela dos resultados mostra uma consistência na redução do tempo de execução do algoritmo de classificação conforme o raio de percolação é aumentado e o número de grupos classificados diminui.
 
 ##Referências
 

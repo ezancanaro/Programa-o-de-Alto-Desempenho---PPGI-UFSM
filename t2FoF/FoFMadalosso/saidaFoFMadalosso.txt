@@ -1,0 +1,3847 @@
+
+
+ TRES EXECUÇOES 8 0.5FoFMadalosso 8 threads, raio 0.5 
+Iniciando...
+
+ Maximos e Minimos:
+	 x_max : 119.999847 	 y_max: 119.999847 	 z_max: 119.999962 
+	 x_min : 60.000324 	 y_min: 60.000439 	 z_min: 60.000095 
+
+ Entrada : 318133 dados
+raio = 0.500000
+OpenMP Executando
+
+MX: 90.000084
+MY: 90.000145
+MZ: 90.000031
+
+Entrada dividida:
+Quadro 0
+	numero total corpos : 55046
+Quadro 1
+	numero total corpos : 40696
+Quadro 2
+	numero total corpos : 17823
+Quadro 3
+	numero total corpos : 52980
+Quadro 4
+	numero total corpos : 24752
+Quadro 5
+	numero total corpos : 42198
+Quadro 6
+	numero total corpos : 38399
+Quadro 7
+	numero total corpos : 46239
+	 Q0, tamanho da entrada : 55046
+Q:0 	Entrada : 55046 corpos
+	 Q4, tamanho da entrada : 24752
+Q:4 	Entrada : 24752 corpos
+	 Q3, tamanho da entrada : 52980
+	 Q1, tamanho da entrada : 40696
+Q:3 	Entrada : 52980 corpos
+Q:1 	Entrada : 40696 corpos
+	 Q5, tamanho da entrada : 42198
+Q:5 	Entrada : 42198 corpos
+	 Q6, tamanho da entrada : 38399
+	 Q2, tamanho da entrada : 17823
+Q:6 	Entrada : 38399 corpos
+Q:2 	Entrada : 17823 corpos
+	 Q7, tamanho da entrada : 46239
+Q:7 	Entrada : 46239 corpos
+LIMITES Segmento 2
+	 MAX 		 MIN 
+X:	 89.999741	 60.000324
+Y:	 119.998016	 90.000999
+Z:	 89.994934	 60.000095
+
+LIMITES Segmento 0
+	 MAX 		 MIN 
+X:	 89.999512	 60.002155
+Y:	 89.998711	 60.001812
+Z:	 89.999855	 60.000324
+
+LIMITES Segmento 4
+	 MAX 		 MIN 
+X:	 90.000084	 60.002384
+Y:	 89.997337	 60.000439
+Z:	 119.997444	 90.000885
+
+LIMITES Segmento 6
+	 MAX 		 MIN 
+X:	 89.999283	 60.002728
+Y:	 119.996986	 90.000656
+Z:	 119.999847	 90.002258
+
+LIMITES Segmento 1
+	 MAX 		 MIN 
+X:	 119.999390	 90.000656
+Y:	 90.000084	 60.000668
+Z:	 89.999397	 60.000324
+
+LIMITES Segmento 7
+	 MAX 		 MIN 
+X:	 119.999847	 90.000313
+Y:	 119.999847	 90.000999
+Z:	 119.999847	 90.000084
+
+LIMITES Segmento 5
+	 MAX 		 MIN 
+X:	 119.999733	 90.001457
+Y:	 89.999855	 60.003643
+Z:	 119.999962	 90.000427
+
+LIMITES Segmento 3
+	 MAX 		 MIN 
+X:	 119.998703	 90.001801
+Y:	 119.996643	 90.000198
+Z:	 89.999969	 60.000896
+
+SEMICUBO 2 	 size grupos : 7160
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 2 
+
+SEMICUBO 4 	 size grupos : 7895
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 4 
+
+SEMICUBO 5 	 size grupos : 10234
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 5 
+
+SEMICUBO 1 	 size grupos : 9371
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 1 
+
+SEMICUBO 6 	 size grupos : 8950
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 6 
+
+SEMICUBO 7 	 size grupos : 9938
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 7 
+
+SEMICUBO 0 	 size grupos : 9097
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 0 
+
+SEMICUBO 3 	 size grupos : 9147
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 3 
+
+-----
+
+Verificando zonas de fronteira
+
+ Root 0 tem 9097 grupos
+	 Fronteira de seg 0
+	 Numero de nos na fronteira: 3168
+ Root 1 tem 9371 grupos
+	 Fronteira de seg 1
+	 Numero de nos na fronteira: 3382
+ Root 2 tem 7160 grupos
+	 Fronteira de seg 2
+	 Numero de nos na fronteira: 2371
+ Root 3 tem 9147 grupos
+	 Fronteira de seg 3
+	 Numero de nos na fronteira: 10393
+ Root 4 tem 7895 grupos
+	 Fronteira de seg 4
+	 Numero de nos na fronteira: 2134
+ Root 5 tem 10234 grupos
+	 Fronteira de seg 5
+	 Numero de nos na fronteira: 4786
+ Root 6 tem 8950 grupos
+	 Fronteira de seg 6
+	 Numero de nos na fronteira: 3377
+ Root 7 tem 9938 grupos
+	 Fronteira de seg 7
+	 Numero de nos na fronteira: 6967
+-----
+
+VERIFICANDO SEGMENTO 0
+	COMPARA COM SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+size tupla(Semelhanças) 422
+ Limpa grupos vazios
+numero de grupos 60396
+Tempo total :    74429.28700 (ms)
+
+numero de grupos 60396
+Numero de grupos + 1 elemento: 17578
+Tempo total :    74673.02600 (ms)
+
+FIM EXECUCAO
+
+FoFMadalosso 8 threads, raio 0.5 
+Iniciando...
+
+ Maximos e Minimos:
+	 x_max : 119.999847 	 y_max: 119.999847 	 z_max: 119.999962 
+	 x_min : 60.000324 	 y_min: 60.000439 	 z_min: 60.000095 
+
+ Entrada : 318133 dados
+raio = 0.500000
+OpenMP Executando
+
+MX: 90.000084
+MY: 90.000145
+MZ: 90.000031
+
+Entrada dividida:
+Quadro 0
+	numero total corpos : 55046
+Quadro 1
+	numero total corpos : 40696
+Quadro 2
+	numero total corpos : 17823
+Quadro 3
+	numero total corpos : 52980
+Quadro 4
+	numero total corpos : 24752
+Quadro 5
+	numero total corpos : 42198
+Quadro 6
+	numero total corpos : 38399
+Quadro 7
+	numero total corpos : 46239
+	 Q0, tamanho da entrada : 55046
+Q:0 	Entrada : 55046 corpos
+	 Q4, tamanho da entrada : 24752
+Q:4 	Entrada : 24752 corpos
+	 Q7, tamanho da entrada : 46239
+Q:7 	Entrada : 46239 corpos
+	 Q3, tamanho da entrada : 52980
+	 Q2, tamanho da entrada : 17823
+Q:2 	Entrada : 17823 corpos
+	 Q6, tamanho da entrada : 38399
+Q:6 	Entrada : 38399 corpos
+Q:3 	Entrada : 52980 corpos
+	 Q1, tamanho da entrada : 40696
+Q:1 	Entrada : 40696 corpos
+	 Q5, tamanho da entrada : 42198
+Q:5 	Entrada : 42198 corpos
+LIMITES Segmento 2
+	 MAX 		 MIN 
+X:	 89.999741	 60.000324
+Y:	 119.998016	 90.000999
+Z:	 89.994934	 60.000095
+
+LIMITES Segmento 4
+	 MAX 		 MIN 
+X:	 90.000084	 60.002384
+Y:	 89.997337	 60.000439
+Z:	 119.997444	 90.000885
+
+LIMITES Segmento 0
+	 MAX 		 MIN 
+X:	 89.999512	 60.002155
+Y:	 89.998711	 60.001812
+Z:	 89.999855	 60.000324
+
+LIMITES Segmento 6
+	 MAX 		 MIN 
+X:	 89.999283	 60.002728
+Y:	 119.996986	 90.000656
+Z:	 119.999847	 90.002258
+
+LIMITES Segmento 1
+	 MAX 		 MIN 
+X:	 119.999390	 90.000656
+Y:	 90.000084	 60.000668
+Z:	 89.999397	 60.000324
+
+LIMITES Segmento 5
+	 MAX 		 MIN 
+X:	 119.999733	 90.001457
+Y:	 89.999855	 60.003643
+Z:	 119.999962	 90.000427
+
+LIMITES Segmento 7
+	 MAX 		 MIN 
+X:	 119.999847	 90.000313
+Y:	 119.999847	 90.000999
+Z:	 119.999847	 90.000084
+
+LIMITES Segmento 3
+	 MAX 		 MIN 
+X:	 119.998703	 90.001801
+Y:	 119.996643	 90.000198
+Z:	 89.999969	 60.000896
+
+SEMICUBO 2 	 size grupos : 7160
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 2 
+
+SEMICUBO 4 	 size grupos : 7895
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 4 
+
+SEMICUBO 5 	 size grupos : 10234
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 5 
+
+SEMICUBO 1 	 size grupos : 9371
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 1 
+
+SEMICUBO 6 	 size grupos : 8950
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 6 
+
+SEMICUBO 7 	 size grupos : 9938
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 7 
+
+SEMICUBO 0 	 size grupos : 9097
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 0 
+
+SEMICUBO 3 	 size grupos : 9147
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 3 
+
+-----
+
+Verificando zonas de fronteira
+
+ Root 0 tem 9097 grupos
+	 Fronteira de seg 0
+	 Numero de nos na fronteira: 3168
+ Root 1 tem 9371 grupos
+	 Fronteira de seg 1
+	 Numero de nos na fronteira: 3382
+ Root 2 tem 7160 grupos
+	 Fronteira de seg 2
+	 Numero de nos na fronteira: 2371
+ Root 3 tem 9147 grupos
+	 Fronteira de seg 3
+	 Numero de nos na fronteira: 10393
+ Root 4 tem 7895 grupos
+	 Fronteira de seg 4
+	 Numero de nos na fronteira: 2134
+ Root 5 tem 10234 grupos
+	 Fronteira de seg 5
+	 Numero de nos na fronteira: 4786
+ Root 6 tem 8950 grupos
+	 Fronteira de seg 6
+	 Numero de nos na fronteira: 3377
+ Root 7 tem 9938 grupos
+	 Fronteira de seg 7
+	 Numero de nos na fronteira: 6967
+-----
+
+VERIFICANDO SEGMENTO 0
+	COMPARA COM SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+size tupla(Semelhanças) 422
+ Limpa grupos vazios
+numero de grupos 60396
+Tempo total :    72759.55800 (ms)
+
+numero de grupos 60396
+Numero de grupos + 1 elemento: 17578
+Tempo total :    73002.47500 (ms)
+
+FIM EXECUCAO
+
+FoFMadalosso 8 threads, raio 0.5 
+Iniciando...
+
+ Maximos e Minimos:
+	 x_max : 119.999847 	 y_max: 119.999847 	 z_max: 119.999962 
+	 x_min : 60.000324 	 y_min: 60.000439 	 z_min: 60.000095 
+
+ Entrada : 318133 dados
+raio = 0.500000
+OpenMP Executando
+
+MX: 90.000084
+MY: 90.000145
+MZ: 90.000031
+
+Entrada dividida:
+Quadro 0
+	numero total corpos : 55046
+Quadro 1
+	numero total corpos : 40696
+Quadro 2
+	numero total corpos : 17823
+Quadro 3
+	numero total corpos : 52980
+Quadro 4
+	numero total corpos : 24752
+Quadro 5
+	numero total corpos : 42198
+Quadro 6
+	numero total corpos : 38399
+Quadro 7
+	numero total corpos : 46239
+	 Q0, tamanho da entrada : 55046
+Q:0 	Entrada : 55046 corpos
+	 Q4, tamanho da entrada : 24752
+Q:4 	Entrada : 24752 corpos
+	 Q3, tamanho da entrada : 52980
+Q:3 	Entrada : 52980 corpos
+	 Q2, tamanho da entrada : 17823
+Q:2 	Entrada : 17823 corpos
+	 Q6, tamanho da entrada : 38399
+Q:6 	Entrada : 38399 corpos
+	 Q7, tamanho da entrada : 46239
+Q:7 	Entrada : 46239 corpos
+	 Q1, tamanho da entrada : 40696
+Q:1 	Entrada : 40696 corpos
+	 Q5, tamanho da entrada : 42198
+Q:5 	Entrada : 42198 corpos
+LIMITES Segmento 2
+	 MAX 		 MIN 
+X:	 89.999741	 60.000324
+Y:	 119.998016	 90.000999
+Z:	 89.994934	 60.000095
+
+LIMITES Segmento 4
+	 MAX 		 MIN 
+X:	 90.000084	 60.002384
+Y:	 89.997337	 60.000439
+Z:	 119.997444	 90.000885
+
+LIMITES Segmento 0
+	 MAX 		 MIN 
+X:	 89.999512	 60.002155
+Y:	 89.998711	 60.001812
+Z:	 89.999855	 60.000324
+
+LIMITES Segmento 6
+	 MAX 		 MIN 
+X:	 89.999283	 60.002728
+Y:	 119.996986	 90.000656
+Z:	 119.999847	 90.002258
+
+LIMITES Segmento 1
+	 MAX 		 MIN 
+X:	 119.999390	 90.000656
+Y:	 90.000084	 60.000668
+Z:	 89.999397	 60.000324
+
+LIMITES Segmento 5
+	 MAX 		 MIN 
+X:	 119.999733	 90.001457
+Y:	 89.999855	 60.003643
+Z:	 119.999962	 90.000427
+
+LIMITES Segmento 7
+	 MAX 		 MIN 
+X:	 119.999847	 90.000313
+Y:	 119.999847	 90.000999
+Z:	 119.999847	 90.000084
+
+LIMITES Segmento 3
+	 MAX 		 MIN 
+X:	 119.998703	 90.001801
+Y:	 119.996643	 90.000198
+Z:	 89.999969	 60.000896
+
+SEMICUBO 2 	 size grupos : 7160
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 2 
+
+SEMICUBO 4 	 size grupos : 7895
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 4 
+
+SEMICUBO 1 	 size grupos : 9371
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 1 
+
+SEMICUBO 5 	 size grupos : 10234
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 5 
+
+SEMICUBO 6 	 size grupos : 8950
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 6 
+
+SEMICUBO 7 	 size grupos : 9938
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 7 
+
+SEMICUBO 0 	 size grupos : 9097
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 0 
+
+SEMICUBO 3 	 size grupos : 9147
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 3 
+
+-----
+
+Verificando zonas de fronteira
+
+ Root 0 tem 9097 grupos
+	 Fronteira de seg 0
+	 Numero de nos na fronteira: 3168
+ Root 1 tem 9371 grupos
+	 Fronteira de seg 1
+	 Numero de nos na fronteira: 3382
+ Root 2 tem 7160 grupos
+	 Fronteira de seg 2
+	 Numero de nos na fronteira: 2371
+ Root 3 tem 9147 grupos
+	 Fronteira de seg 3
+	 Numero de nos na fronteira: 10393
+ Root 4 tem 7895 grupos
+	 Fronteira de seg 4
+	 Numero de nos na fronteira: 2134
+ Root 5 tem 10234 grupos
+	 Fronteira de seg 5
+	 Numero de nos na fronteira: 4786
+ Root 6 tem 8950 grupos
+	 Fronteira de seg 6
+	 Numero de nos na fronteira: 3377
+ Root 7 tem 9938 grupos
+	 Fronteira de seg 7
+	 Numero de nos na fronteira: 6967
+-----
+
+VERIFICANDO SEGMENTO 0
+	COMPARA COM SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+size tupla(Semelhanças) 422
+ Limpa grupos vazios
+numero de grupos 60396
+Tempo total :    72907.87100 (ms)
+
+numero de grupos 60396
+Numero de grupos + 1 elemento: 17578
+Tempo total :    73153.26100 (ms)
+
+FIM EXECUCAO
+
+
+
+ TRES EXECUÇOES 4 0.5
+
+ FoFMadalosso 4 threads, raio 0.5 
+Iniciando...
+
+ Maximos e Minimos:
+	 x_max : 119.999847 	 y_max: 119.999847 	 z_max: 119.999962 
+	 x_min : 60.000324 	 y_min: 60.000439 	 z_min: 60.000095 
+
+ Entrada : 318133 dados
+raio = 0.500000
+OpenMP Executando
+
+MX: 90.000084
+MY: 90.000145
+MZ: 90.000031
+
+Entrada dividida:
+Quadro 0
+	numero total corpos : 55046
+Quadro 1
+	numero total corpos : 40696
+Quadro 2
+	numero total corpos : 17823
+Quadro 3
+	numero total corpos : 52980
+Quadro 4
+	numero total corpos : 24752
+Quadro 5
+	numero total corpos : 42198
+Quadro 6
+	numero total corpos : 38399
+Quadro 7
+	numero total corpos : 46239
+	 Q0, tamanho da entrada : 55046
+Q:0 	Entrada : 55046 corpos
+	 Q2, tamanho da entrada : 17823
+Q:2 	Entrada : 17823 corpos
+	 Q6, tamanho da entrada : 38399
+Q:6 	Entrada : 38399 corpos
+	 Q4, tamanho da entrada : 24752
+Q:4 	Entrada : 24752 corpos
+LIMITES Segmento 2
+	 MAX 		 MIN 
+X:	 89.999741	 60.000324
+Y:	 119.998016	 90.000999
+Z:	 89.994934	 60.000095
+
+LIMITES Segmento 4
+	 MAX 		 MIN 
+X:	 90.000084	 60.002384
+Y:	 89.997337	 60.000439
+Z:	 119.997444	 90.000885
+
+LIMITES Segmento 0
+	 MAX 		 MIN 
+X:	 89.999512	 60.002155
+Y:	 89.998711	 60.001812
+Z:	 89.999855	 60.000324
+
+LIMITES Segmento 6
+	 MAX 		 MIN 
+X:	 89.999283	 60.002728
+Y:	 119.996986	 90.000656
+Z:	 119.999847	 90.002258
+
+SEMICUBO 2 	 size grupos : 7160
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 2 
+
+	 Q3, tamanho da entrada : 52980
+Q:3 	Entrada : 52980 corpos
+LIMITES Segmento 3
+	 MAX 		 MIN 
+X:	 119.998703	 90.001801
+Y:	 119.996643	 90.000198
+Z:	 89.999969	 60.000896
+
+SEMICUBO 4 	 size grupos : 7895
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 4 
+
+	 Q5, tamanho da entrada : 42198
+Q:5 	Entrada : 42198 corpos
+LIMITES Segmento 5
+	 MAX 		 MIN 
+X:	 119.999733	 90.001457
+Y:	 89.999855	 60.003643
+Z:	 119.999962	 90.000427
+
+SEMICUBO 6 	 size grupos : 8950
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 6 
+
+	 Q7, tamanho da entrada : 46239
+Q:7 	Entrada : 46239 corpos
+LIMITES Segmento 7
+	 MAX 		 MIN 
+X:	 119.999847	 90.000313
+Y:	 119.999847	 90.000999
+Z:	 119.999847	 90.000084
+
+SEMICUBO 5 	 size grupos : 10234
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 5 
+
+SEMICUBO 0 	 size grupos : 9097
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 0 
+
+	 Q1, tamanho da entrada : 40696
+Q:1 	Entrada : 40696 corpos
+LIMITES Segmento 1
+	 MAX 		 MIN 
+X:	 119.999390	 90.000656
+Y:	 90.000084	 60.000668
+Z:	 89.999397	 60.000324
+
+SEMICUBO 7 	 size grupos : 9938
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 7 
+
+SEMICUBO 3 	 size grupos : 9147
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 3 
+
+SEMICUBO 1 	 size grupos : 9371
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 1 
+
+-----
+
+Verificando zonas de fronteira
+
+ Root 0 tem 9097 grupos
+	 Fronteira de seg 0
+	 Numero de nos na fronteira: 3168
+ Root 1 tem 9371 grupos
+	 Fronteira de seg 1
+	 Numero de nos na fronteira: 3382
+ Root 2 tem 7160 grupos
+	 Fronteira de seg 2
+	 Numero de nos na fronteira: 2371
+ Root 3 tem 9147 grupos
+	 Fronteira de seg 3
+	 Numero de nos na fronteira: 10393
+ Root 4 tem 7895 grupos
+	 Fronteira de seg 4
+	 Numero de nos na fronteira: 2134
+ Root 5 tem 10234 grupos
+	 Fronteira de seg 5
+	 Numero de nos na fronteira: 4786
+ Root 6 tem 8950 grupos
+	 Fronteira de seg 6
+	 Numero de nos na fronteira: 3377
+ Root 7 tem 9938 grupos
+	 Fronteira de seg 7
+	 Numero de nos na fronteira: 6967
+-----
+
+VERIFICANDO SEGMENTO 0
+	COMPARA COM SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+size tupla(Semelhanças) 422
+ Limpa grupos vazios
+numero de grupos 60396
+Tempo total :    54437.23800 (ms)
+
+numero de grupos 60396
+Numero de grupos + 1 elemento: 17578
+Tempo total :    54699.15500 (ms)
+
+FIM EXECUCAO
+
+
+
+ FoFMadalosso 4 threads, raio 0.5 
+Iniciando...
+
+ Maximos e Minimos:
+	 x_max : 119.999847 	 y_max: 119.999847 	 z_max: 119.999962 
+	 x_min : 60.000324 	 y_min: 60.000439 	 z_min: 60.000095 
+
+ Entrada : 318133 dados
+raio = 0.500000
+OpenMP Executando
+
+MX: 90.000084
+MY: 90.000145
+MZ: 90.000031
+
+Entrada dividida:
+Quadro 0
+	numero total corpos : 55046
+Quadro 1
+	numero total corpos : 40696
+Quadro 2
+	numero total corpos : 17823
+Quadro 3
+	numero total corpos : 52980
+Quadro 4
+	numero total corpos : 24752
+Quadro 5
+	numero total corpos : 42198
+Quadro 6
+	numero total corpos : 38399
+Quadro 7
+	numero total corpos : 46239
+	 Q0, tamanho da entrada : 55046
+Q:0 	Entrada : 55046 corpos
+	 Q6, tamanho da entrada : 38399
+Q:6 	Entrada : 38399 corpos
+	 Q2, tamanho da entrada : 17823
+Q:2 	Entrada : 17823 corpos
+	 Q4, tamanho da entrada : 24752
+Q:4 	Entrada : 24752 corpos
+LIMITES Segmento 2
+	 MAX 		 MIN 
+X:	 89.999741	 60.000324
+Y:	 119.998016	 90.000999
+Z:	 89.994934	 60.000095
+
+LIMITES Segmento 4
+	 MAX 		 MIN 
+X:	 90.000084	 60.002384
+Y:	 89.997337	 60.000439
+Z:	 119.997444	 90.000885
+
+LIMITES Segmento 6
+	 MAX 		 MIN 
+X:	 89.999283	 60.002728
+Y:	 119.996986	 90.000656
+Z:	 119.999847	 90.002258
+
+LIMITES Segmento 0
+	 MAX 		 MIN 
+X:	 89.999512	 60.002155
+Y:	 89.998711	 60.001812
+Z:	 89.999855	 60.000324
+
+SEMICUBO 2 	 size grupos : 7160
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 2 
+
+	 Q3, tamanho da entrada : 52980
+Q:3 	Entrada : 52980 corpos
+LIMITES Segmento 3
+	 MAX 		 MIN 
+X:	 119.998703	 90.001801
+Y:	 119.996643	 90.000198
+Z:	 89.999969	 60.000896
+
+SEMICUBO 4 	 size grupos : 7895
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 4 
+
+	 Q5, tamanho da entrada : 42198
+Q:5 	Entrada : 42198 corpos
+LIMITES Segmento 5
+	 MAX 		 MIN 
+X:	 119.999733	 90.001457
+Y:	 89.999855	 60.003643
+Z:	 119.999962	 90.000427
+
+SEMICUBO 6 	 size grupos : 8950
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 6 
+
+	 Q7, tamanho da entrada : 46239
+Q:7 	Entrada : 46239 corpos
+LIMITES Segmento 7
+	 MAX 		 MIN 
+X:	 119.999847	 90.000313
+Y:	 119.999847	 90.000999
+Z:	 119.999847	 90.000084
+
+SEMICUBO 5 	 size grupos : 10234
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 5 
+
+SEMICUBO 0 	 size grupos : 9097
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 0 
+
+	 Q1, tamanho da entrada : 40696
+Q:1 	Entrada : 40696 corpos
+LIMITES Segmento 1
+	 MAX 		 MIN 
+X:	 119.999390	 90.000656
+Y:	 90.000084	 60.000668
+Z:	 89.999397	 60.000324
+
+SEMICUBO 7 	 size grupos : 9938
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 7 
+
+SEMICUBO 3 	 size grupos : 9147
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 3 
+
+SEMICUBO 1 	 size grupos : 9371
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 1 
+
+-----
+
+Verificando zonas de fronteira
+
+ Root 0 tem 9097 grupos
+	 Fronteira de seg 0
+	 Numero de nos na fronteira: 3168
+ Root 1 tem 9371 grupos
+	 Fronteira de seg 1
+	 Numero de nos na fronteira: 3382
+ Root 2 tem 7160 grupos
+	 Fronteira de seg 2
+	 Numero de nos na fronteira: 2371
+ Root 3 tem 9147 grupos
+	 Fronteira de seg 3
+	 Numero de nos na fronteira: 10393
+ Root 4 tem 7895 grupos
+	 Fronteira de seg 4
+	 Numero de nos na fronteira: 2134
+ Root 5 tem 10234 grupos
+	 Fronteira de seg 5
+	 Numero de nos na fronteira: 4786
+ Root 6 tem 8950 grupos
+	 Fronteira de seg 6
+	 Numero de nos na fronteira: 3377
+ Root 7 tem 9938 grupos
+	 Fronteira de seg 7
+	 Numero de nos na fronteira: 6967
+-----
+
+VERIFICANDO SEGMENTO 0
+	COMPARA COM SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+size tupla(Semelhanças) 422
+ Limpa grupos vazios
+numero de grupos 60396
+Tempo total :    54329.36400 (ms)
+
+numero de grupos 60396
+Numero de grupos + 1 elemento: 17578
+Tempo total :    54577.75000 (ms)
+
+FIM EXECUCAO
+
+
+
+ FoFMadalosso 4 threads, raio 0.5 
+Iniciando...
+
+ Maximos e Minimos:
+	 x_max : 119.999847 	 y_max: 119.999847 	 z_max: 119.999962 
+	 x_min : 60.000324 	 y_min: 60.000439 	 z_min: 60.000095 
+
+ Entrada : 318133 dados
+raio = 0.500000
+OpenMP Executando
+
+MX: 90.000084
+MY: 90.000145
+MZ: 90.000031
+
+Entrada dividida:
+Quadro 0
+	numero total corpos : 55046
+Quadro 1
+	numero total corpos : 40696
+Quadro 2
+	numero total corpos : 17823
+Quadro 3
+	numero total corpos : 52980
+Quadro 4
+	numero total corpos : 24752
+Quadro 5
+	numero total corpos : 42198
+Quadro 6
+	numero total corpos : 38399
+Quadro 7
+	numero total corpos : 46239
+	 Q0, tamanho da entrada : 55046
+Q:0 	Entrada : 55046 corpos
+	 Q2, tamanho da entrada : 17823
+Q:2 	Entrada : 17823 corpos
+	 Q4, tamanho da entrada : 24752
+Q:4 	Entrada : 24752 corpos
+	 Q6, tamanho da entrada : 38399
+Q:6 	Entrada : 38399 corpos
+LIMITES Segmento 2
+	 MAX 		 MIN 
+X:	 89.999741	 60.000324
+Y:	 119.998016	 90.000999
+Z:	 89.994934	 60.000095
+
+LIMITES Segmento 4
+	 MAX 		 MIN 
+X:	 90.000084	 60.002384
+Y:	 89.997337	 60.000439
+Z:	 119.997444	 90.000885
+
+LIMITES Segmento 0
+	 MAX 		 MIN 
+X:	 89.999512	 60.002155
+Y:	 89.998711	 60.001812
+Z:	 89.999855	 60.000324
+
+LIMITES Segmento 6
+	 MAX 		 MIN 
+X:	 89.999283	 60.002728
+Y:	 119.996986	 90.000656
+Z:	 119.999847	 90.002258
+
+SEMICUBO 2 	 size grupos : 7160
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 2 
+
+	 Q3, tamanho da entrada : 52980
+Q:3 	Entrada : 52980 corpos
+LIMITES Segmento 3
+	 MAX 		 MIN 
+X:	 119.998703	 90.001801
+Y:	 119.996643	 90.000198
+Z:	 89.999969	 60.000896
+
+SEMICUBO 4 	 size grupos : 7895
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 4 
+
+	 Q5, tamanho da entrada : 42198
+Q:5 	Entrada : 42198 corpos
+LIMITES Segmento 5
+	 MAX 		 MIN 
+X:	 119.999733	 90.001457
+Y:	 89.999855	 60.003643
+Z:	 119.999962	 90.000427
+
+SEMICUBO 6 	 size grupos : 8950
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 6 
+
+	 Q7, tamanho da entrada : 46239
+Q:7 	Entrada : 46239 corpos
+LIMITES Segmento 7
+	 MAX 		 MIN 
+X:	 119.999847	 90.000313
+Y:	 119.999847	 90.000999
+Z:	 119.999847	 90.000084
+
+SEMICUBO 5 	 size grupos : 10234
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 5 
+
+SEMICUBO 0 	 size grupos : 9097
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 0 
+
+	 Q1, tamanho da entrada : 40696
+Q:1 	Entrada : 40696 corpos
+LIMITES Segmento 1
+	 MAX 		 MIN 
+X:	 119.999390	 90.000656
+Y:	 90.000084	 60.000668
+Z:	 89.999397	 60.000324
+
+SEMICUBO 7 	 size grupos : 9938
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 7 
+
+SEMICUBO 3 	 size grupos : 9147
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 3 
+
+SEMICUBO 1 	 size grupos : 9371
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 1 
+
+-----
+
+Verificando zonas de fronteira
+
+ Root 0 tem 9097 grupos
+	 Fronteira de seg 0
+	 Numero de nos na fronteira: 3168
+ Root 1 tem 9371 grupos
+	 Fronteira de seg 1
+	 Numero de nos na fronteira: 3382
+ Root 2 tem 7160 grupos
+	 Fronteira de seg 2
+	 Numero de nos na fronteira: 2371
+ Root 3 tem 9147 grupos
+	 Fronteira de seg 3
+	 Numero de nos na fronteira: 10393
+ Root 4 tem 7895 grupos
+	 Fronteira de seg 4
+	 Numero de nos na fronteira: 2134
+ Root 5 tem 10234 grupos
+	 Fronteira de seg 5
+	 Numero de nos na fronteira: 4786
+ Root 6 tem 8950 grupos
+	 Fronteira de seg 6
+	 Numero de nos na fronteira: 3377
+ Root 7 tem 9938 grupos
+	 Fronteira de seg 7
+	 Numero de nos na fronteira: 6967
+-----
+
+VERIFICANDO SEGMENTO 0
+	COMPARA COM SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+size tupla(Semelhanças) 422
+ Limpa grupos vazios
+numero de grupos 60396
+Tempo total :    54347.61200 (ms)
+
+numero de grupos 60396
+Numero de grupos + 1 elemento: 17578
+Tempo total :    54597.27200 (ms)
+
+FIM EXECUCAO
+
+
+
+ TRES EXECUÇOES 8 1Error: no such file "\n\n FoFMadalosso 8 threads, raio 1 \n"
+Iniciando...
+
+ Maximos e Minimos:
+	 x_max : 119.999847 	 y_max: 119.999847 	 z_max: 119.999962 
+	 x_min : 60.000324 	 y_min: 60.000439 	 z_min: 60.000095 
+
+ Entrada : 318133 dados
+raio = 1.000000
+OpenMP Executando
+
+MX: 90.000084
+MY: 90.000145
+MZ: 90.000031
+
+Entrada dividida:
+Quadro 0
+	numero total corpos : 55046
+Quadro 1
+	numero total corpos : 40696
+Quadro 2
+	numero total corpos : 17823
+Quadro 3
+	numero total corpos : 52980
+Quadro 4
+	numero total corpos : 24752
+Quadro 5
+	numero total corpos : 42198
+Quadro 6
+	numero total corpos : 38399
+Quadro 7
+	numero total corpos : 46239
+	 Q0, tamanho da entrada : 55046
+Q:0 	Entrada : 55046 corpos
+	 Q4, tamanho da entrada : 24752
+Q:4 	Entrada : 24752 corpos
+	 Q3, tamanho da entrada : 52980
+Q:3 	Entrada : 52980 corpos
+	 Q6, tamanho da entrada : 38399
+Q:6 	Entrada : 38399 corpos
+	 Q2, tamanho da entrada : 17823
+	 Q7, tamanho da entrada : 46239
+	 Q5, tamanho da entrada : 42198
+	 Q1, tamanho da entrada : 40696
+Q:7 	Entrada : 46239 corpos
+Q:2 	Entrada : 17823 corpos
+Q:1 	Entrada : 40696 corpos
+Q:5 	Entrada : 42198 corpos
+LIMITES Segmento 2
+	 MAX 		 MIN 
+X:	 89.999741	 60.000324
+Y:	 119.998016	 90.000999
+Z:	 89.994934	 60.000095
+
+LIMITES Segmento 4
+	 MAX 		 MIN 
+X:	 90.000084	 60.002384
+Y:	 89.997337	 60.000439
+Z:	 119.997444	 90.000885
+
+LIMITES Segmento 0
+	 MAX 		 MIN 
+X:	 89.999512	 60.002155
+Y:	 89.998711	 60.001812
+Z:	 89.999855	 60.000324
+
+LIMITES Segmento 6
+	 MAX 		 MIN 
+X:	 89.999283	 60.002728
+Y:	 119.996986	 90.000656
+Z:	 119.999847	 90.002258
+
+LIMITES Segmento 1
+	 MAX 		 MIN 
+X:	 119.999390	 90.000656
+Y:	 90.000084	 60.000668
+Z:	 89.999397	 60.000324
+
+LIMITES Segmento 5
+	 MAX 		 MIN 
+X:	 119.999733	 90.001457
+Y:	 89.999855	 60.003643
+Z:	 119.999962	 90.000427
+
+LIMITES Segmento 7
+	 MAX 		 MIN 
+X:	 119.999847	 90.000313
+Y:	 119.999847	 90.000999
+Z:	 119.999847	 90.000084
+
+LIMITES Segmento 3
+	 MAX 		 MIN 
+X:	 119.998703	 90.001801
+Y:	 119.996643	 90.000198
+Z:	 89.999969	 60.000896
+
+SEMICUBO 2 	 size grupos : 3872
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 2 
+
+SEMICUBO 4 	 size grupos : 4033
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 4 
+
+SEMICUBO 5 	 size grupos : 4288
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 5 
+
+SEMICUBO 1 	 size grupos : 4227
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 1 
+
+SEMICUBO 6 	 size grupos : 4236
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 6 
+
+SEMICUBO 7 	 size grupos : 4106
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 7 
+
+SEMICUBO 0 	 size grupos : 3984
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 0 
+
+SEMICUBO 3 	 size grupos : 4051
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 3 
+
+-----
+
+Verificando zonas de fronteira
+
+ Root 0 tem 3984 grupos
+	 Fronteira de seg 0
+	 Numero de nos na fronteira: 8097
+ Root 1 tem 4227 grupos
+	 Fronteira de seg 1
+	 Numero de nos na fronteira: 6820
+ Root 2 tem 3872 grupos
+	 Fronteira de seg 2
+	 Numero de nos na fronteira: 4500
+ Root 3 tem 4051 grupos
+	 Fronteira de seg 3
+	 Numero de nos na fronteira: 21734
+ Root 4 tem 4033 grupos
+	 Fronteira de seg 4
+	 Numero de nos na fronteira: 4012
+ Root 5 tem 4288 grupos
+	 Fronteira de seg 5
+	 Numero de nos na fronteira: 8179
+ Root 6 tem 4236 grupos
+	 Fronteira de seg 6
+	 Numero de nos na fronteira: 6275
+ Root 7 tem 4106 grupos
+	 Fronteira de seg 7
+	 Numero de nos na fronteira: 12223
+-----
+
+VERIFICANDO SEGMENTO 0
+	COMPARA COM SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+size tupla(Semelhanças) 559
+ Limpa grupos vazios
+numero de grupos 20926
+Tempo total :    252118.02500 (ms)
+
+numero de grupos 20926
+Numero de grupos + 1 elemento: 6939
+Tempo total :    252323.13900 (ms)
+
+FIM EXECUCAO
+
+Error: no such file "\n\n FoFMadalosso 8 threads, raio 1 \n"
+Iniciando...
+
+ Maximos e Minimos:
+	 x_max : 119.999847 	 y_max: 119.999847 	 z_max: 119.999962 
+	 x_min : 60.000324 	 y_min: 60.000439 	 z_min: 60.000095 
+
+ Entrada : 318133 dados
+raio = 1.000000
+OpenMP Executando
+
+MX: 90.000084
+MY: 90.000145
+MZ: 90.000031
+
+Entrada dividida:
+Quadro 0
+	numero total corpos : 55046
+Quadro 1
+	numero total corpos : 40696
+Quadro 2
+	numero total corpos : 17823
+Quadro 3
+	numero total corpos : 52980
+Quadro 4
+	numero total corpos : 24752
+Quadro 5
+	numero total corpos : 42198
+Quadro 6
+	numero total corpos : 38399
+Quadro 7
+	numero total corpos : 46239
+	 Q0, tamanho da entrada : 55046
+Q:0 	Entrada : 55046 corpos
+	 Q4, tamanho da entrada : 24752
+Q:4 	Entrada : 24752 corpos
+	 Q3, tamanho da entrada : 52980
+Q:3 	Entrada : 52980 corpos
+	 Q7, tamanho da entrada : 46239
+	 Q1, tamanho da entrada : 40696
+	 Q5, tamanho da entrada : 42198
+Q:5 	Entrada : 42198 corpos
+Q:1 	Entrada : 40696 corpos
+Q:7 	Entrada : 46239 corpos
+	 Q2, tamanho da entrada : 17823
+Q:2 	Entrada : 17823 corpos
+	 Q6, tamanho da entrada : 38399
+Q:6 	Entrada : 38399 corpos
+LIMITES Segmento 2
+	 MAX 		 MIN 
+X:	 89.999741	 60.000324
+Y:	 119.998016	 90.000999
+Z:	 89.994934	 60.000095
+
+LIMITES Segmento 4
+	 MAX 		 MIN 
+X:	 90.000084	 60.002384
+Y:	 89.997337	 60.000439
+Z:	 119.997444	 90.000885
+
+LIMITES Segmento 0
+	 MAX 		 MIN 
+X:	 89.999512	 60.002155
+Y:	 89.998711	 60.001812
+Z:	 89.999855	 60.000324
+
+LIMITES Segmento 6
+	 MAX 		 MIN 
+X:	 89.999283	 60.002728
+Y:	 119.996986	 90.000656
+Z:	 119.999847	 90.002258
+
+LIMITES Segmento 1
+	 MAX 		 MIN 
+X:	 119.999390	 90.000656
+Y:	 90.000084	 60.000668
+Z:	 89.999397	 60.000324
+
+LIMITES Segmento 5
+	 MAX 		 MIN 
+X:	 119.999733	 90.001457
+Y:	 89.999855	 60.003643
+Z:	 119.999962	 90.000427
+
+LIMITES Segmento 7
+	 MAX 		 MIN 
+X:	 119.999847	 90.000313
+Y:	 119.999847	 90.000999
+Z:	 119.999847	 90.000084
+
+LIMITES Segmento 3
+	 MAX 		 MIN 
+X:	 119.998703	 90.001801
+Y:	 119.996643	 90.000198
+Z:	 89.999969	 60.000896
+
+SEMICUBO 2 	 size grupos : 3872
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 2 
+
+SEMICUBO 4 	 size grupos : 4033
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 4 
+
+SEMICUBO 5 	 size grupos : 4288
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 5 
+
+SEMICUBO 1 	 size grupos : 4227
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 1 
+
+SEMICUBO 6 	 size grupos : 4236
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 6 
+
+SEMICUBO 7 	 size grupos : 4106
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 7 
+
+SEMICUBO 0 	 size grupos : 3984
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 0 
+
+SEMICUBO 3 	 size grupos : 4051
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 3 
+
+-----
+
+Verificando zonas de fronteira
+
+ Root 0 tem 3984 grupos
+	 Fronteira de seg 0
+	 Numero de nos na fronteira: 8097
+ Root 1 tem 4227 grupos
+	 Fronteira de seg 1
+	 Numero de nos na fronteira: 6820
+ Root 2 tem 3872 grupos
+	 Fronteira de seg 2
+	 Numero de nos na fronteira: 4500
+ Root 3 tem 4051 grupos
+	 Fronteira de seg 3
+	 Numero de nos na fronteira: 21734
+ Root 4 tem 4033 grupos
+	 Fronteira de seg 4
+	 Numero de nos na fronteira: 4012
+ Root 5 tem 4288 grupos
+	 Fronteira de seg 5
+	 Numero de nos na fronteira: 8179
+ Root 6 tem 4236 grupos
+	 Fronteira de seg 6
+	 Numero de nos na fronteira: 6275
+ Root 7 tem 4106 grupos
+	 Fronteira de seg 7
+	 Numero de nos na fronteira: 12223
+-----
+
+VERIFICANDO SEGMENTO 0
+	COMPARA COM SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+size tupla(Semelhanças) 559
+ Limpa grupos vazios
+numero de grupos 20926
+Tempo total :    253975.74500 (ms)
+
+numero de grupos 20926
+Numero de grupos + 1 elemento: 6939
+Tempo total :    254180.78600 (ms)
+
+FIM EXECUCAO
+
+Error: no such file "\n\n FoFMadalosso 8 threads, raio 1 \n"
+Iniciando...
+
+ Maximos e Minimos:
+	 x_max : 119.999847 	 y_max: 119.999847 	 z_max: 119.999962 
+	 x_min : 60.000324 	 y_min: 60.000439 	 z_min: 60.000095 
+
+ Entrada : 318133 dados
+raio = 1.000000
+OpenMP Executando
+
+MX: 90.000084
+MY: 90.000145
+MZ: 90.000031
+
+Entrada dividida:
+Quadro 0
+	numero total corpos : 55046
+Quadro 1
+	numero total corpos : 40696
+Quadro 2
+	numero total corpos : 17823
+Quadro 3
+	numero total corpos : 52980
+Quadro 4
+	numero total corpos : 24752
+Quadro 5
+	numero total corpos : 42198
+Quadro 6
+	numero total corpos : 38399
+Quadro 7
+	numero total corpos : 46239
+	 Q0, tamanho da entrada : 55046
+Q:0 	Entrada : 55046 corpos
+	 Q4, tamanho da entrada : 24752
+Q:4 	Entrada : 24752 corpos
+	 Q3, tamanho da entrada : 52980
+Q:3 	Entrada : 52980 corpos
+	 Q7, tamanho da entrada : 46239
+	 Q1, tamanho da entrada : 40696
+	 Q5, tamanho da entrada : 42198
+Q:1 	Entrada : 40696 corpos
+Q:5 	Entrada : 42198 corpos
+Q:7 	Entrada : 46239 corpos
+	 Q2, tamanho da entrada : 17823
+Q:2 	Entrada : 17823 corpos
+	 Q6, tamanho da entrada : 38399
+Q:6 	Entrada : 38399 corpos
+LIMITES Segmento 2
+	 MAX 		 MIN 
+X:	 89.999741	 60.000324
+Y:	 119.998016	 90.000999
+Z:	 89.994934	 60.000095
+
+LIMITES Segmento 4
+	 MAX 		 MIN 
+X:	 90.000084	 60.002384
+Y:	 89.997337	 60.000439
+Z:	 119.997444	 90.000885
+
+LIMITES Segmento 0
+	 MAX 		 MIN 
+X:	 89.999512	 60.002155
+Y:	 89.998711	 60.001812
+Z:	 89.999855	 60.000324
+
+LIMITES Segmento 6
+	 MAX 		 MIN 
+X:	 89.999283	 60.002728
+Y:	 119.996986	 90.000656
+Z:	 119.999847	 90.002258
+
+LIMITES Segmento 1
+	 MAX 		 MIN 
+X:	 119.999390	 90.000656
+Y:	 90.000084	 60.000668
+Z:	 89.999397	 60.000324
+
+LIMITES Segmento 5
+	 MAX 		 MIN 
+X:	 119.999733	 90.001457
+Y:	 89.999855	 60.003643
+Z:	 119.999962	 90.000427
+
+LIMITES Segmento 7
+	 MAX 		 MIN 
+X:	 119.999847	 90.000313
+Y:	 119.999847	 90.000999
+Z:	 119.999847	 90.000084
+
+LIMITES Segmento 3
+	 MAX 		 MIN 
+X:	 119.998703	 90.001801
+Y:	 119.996643	 90.000198
+Z:	 89.999969	 60.000896
+
+SEMICUBO 2 	 size grupos : 3872
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 2 
+
+SEMICUBO 4 	 size grupos : 4033
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 4 
+
+SEMICUBO 5 	 size grupos : 4288
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 5 
+
+SEMICUBO 1 	 size grupos : 4227
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 1 
+
+SEMICUBO 6 	 size grupos : 4236
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 6 
+
+SEMICUBO 7 	 size grupos : 4106
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 7 
+
+SEMICUBO 0 	 size grupos : 3984
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 0 
+
+SEMICUBO 3 	 size grupos : 4051
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 3 
+
+-----
+
+Verificando zonas de fronteira
+
+ Root 0 tem 3984 grupos
+	 Fronteira de seg 0
+	 Numero de nos na fronteira: 8097
+ Root 1 tem 4227 grupos
+	 Fronteira de seg 1
+	 Numero de nos na fronteira: 6820
+ Root 2 tem 3872 grupos
+	 Fronteira de seg 2
+	 Numero de nos na fronteira: 4500
+ Root 3 tem 4051 grupos
+	 Fronteira de seg 3
+	 Numero de nos na fronteira: 21734
+ Root 4 tem 4033 grupos
+	 Fronteira de seg 4
+	 Numero de nos na fronteira: 4012
+ Root 5 tem 4288 grupos
+	 Fronteira de seg 5
+	 Numero de nos na fronteira: 8179
+ Root 6 tem 4236 grupos
+	 Fronteira de seg 6
+	 Numero de nos na fronteira: 6275
+ Root 7 tem 4106 grupos
+	 Fronteira de seg 7
+	 Numero de nos na fronteira: 12223
+-----
+
+VERIFICANDO SEGMENTO 0
+	COMPARA COM SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+size tupla(Semelhanças) 559
+ Limpa grupos vazios
+numero de grupos 20926
+Tempo total :    250070.52800 (ms)
+
+numero de grupos 20926
+Numero de grupos + 1 elemento: 6939
+Tempo total :    250275.65800 (ms)
+
+FIM EXECUCAO
+
+
+
+ TRES EXECUÇOES 4 1Error: no such file "\n\n FoFMadalosso 4 threads, raio 1 \n"
+Iniciando...
+
+ Maximos e Minimos:
+	 x_max : 119.999847 	 y_max: 119.999847 	 z_max: 119.999962 
+	 x_min : 60.000324 	 y_min: 60.000439 	 z_min: 60.000095 
+
+ Entrada : 318133 dados
+raio = 1.000000
+OpenMP Executando
+
+MX: 90.000084
+MY: 90.000145
+MZ: 90.000031
+
+Entrada dividida:
+Quadro 0
+	numero total corpos : 55046
+Quadro 1
+	numero total corpos : 40696
+Quadro 2
+	numero total corpos : 17823
+Quadro 3
+	numero total corpos : 52980
+Quadro 4
+	numero total corpos : 24752
+Quadro 5
+	numero total corpos : 42198
+Quadro 6
+	numero total corpos : 38399
+Quadro 7
+	numero total corpos : 46239
+	 Q0, tamanho da entrada : 55046
+Q:0 	Entrada : 55046 corpos
+	 Q6, tamanho da entrada : 38399
+Q:6 	Entrada : 38399 corpos
+	 Q2, tamanho da entrada : 17823
+Q:2 	Entrada : 17823 corpos
+	 Q4, tamanho da entrada : 24752
+Q:4 	Entrada : 24752 corpos
+LIMITES Segmento 2
+	 MAX 		 MIN 
+X:	 89.999741	 60.000324
+Y:	 119.998016	 90.000999
+Z:	 89.994934	 60.000095
+
+LIMITES Segmento 4
+	 MAX 		 MIN 
+X:	 90.000084	 60.002384
+Y:	 89.997337	 60.000439
+Z:	 119.997444	 90.000885
+
+LIMITES Segmento 0
+	 MAX 		 MIN 
+X:	 89.999512	 60.002155
+Y:	 89.998711	 60.001812
+Z:	 89.999855	 60.000324
+
+LIMITES Segmento 6
+	 MAX 		 MIN 
+X:	 89.999283	 60.002728
+Y:	 119.996986	 90.000656
+Z:	 119.999847	 90.002258
+
+SEMICUBO 2 	 size grupos : 3872
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 2 
+
+	 Q3, tamanho da entrada : 52980
+Q:3 	Entrada : 52980 corpos
+LIMITES Segmento 3
+	 MAX 		 MIN 
+X:	 119.998703	 90.001801
+Y:	 119.996643	 90.000198
+Z:	 89.999969	 60.000896
+
+SEMICUBO 4 	 size grupos : 4033
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 4 
+
+	 Q5, tamanho da entrada : 42198
+Q:5 	Entrada : 42198 corpos
+LIMITES Segmento 5
+	 MAX 		 MIN 
+X:	 119.999733	 90.001457
+Y:	 89.999855	 60.003643
+Z:	 119.999962	 90.000427
+
+SEMICUBO 6 	 size grupos : 4236
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 6 
+
+	 Q7, tamanho da entrada : 46239
+Q:7 	Entrada : 46239 corpos
+LIMITES Segmento 7
+	 MAX 		 MIN 
+X:	 119.999847	 90.000313
+Y:	 119.999847	 90.000999
+Z:	 119.999847	 90.000084
+
+SEMICUBO 5 	 size grupos : 4288
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 5 
+
+SEMICUBO 0 	 size grupos : 3984
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 0 
+
+	 Q1, tamanho da entrada : 40696
+Q:1 	Entrada : 40696 corpos
+LIMITES Segmento 1
+	 MAX 		 MIN 
+X:	 119.999390	 90.000656
+Y:	 90.000084	 60.000668
+Z:	 89.999397	 60.000324
+
+SEMICUBO 7 	 size grupos : 4106
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 7 
+
+SEMICUBO 3 	 size grupos : 4051
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 3 
+
+SEMICUBO 1 	 size grupos : 4227
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 1 
+
+-----
+
+Verificando zonas de fronteira
+
+ Root 0 tem 3984 grupos
+	 Fronteira de seg 0
+	 Numero de nos na fronteira: 8097
+ Root 1 tem 4227 grupos
+	 Fronteira de seg 1
+	 Numero de nos na fronteira: 6820
+ Root 2 tem 3872 grupos
+	 Fronteira de seg 2
+	 Numero de nos na fronteira: 4500
+ Root 3 tem 4051 grupos
+	 Fronteira de seg 3
+	 Numero de nos na fronteira: 21734
+ Root 4 tem 4033 grupos
+	 Fronteira de seg 4
+	 Numero de nos na fronteira: 4012
+ Root 5 tem 4288 grupos
+	 Fronteira de seg 5
+	 Numero de nos na fronteira: 8179
+ Root 6 tem 4236 grupos
+	 Fronteira de seg 6
+	 Numero de nos na fronteira: 6275
+ Root 7 tem 4106 grupos
+	 Fronteira de seg 7
+	 Numero de nos na fronteira: 12223
+-----
+
+VERIFICANDO SEGMENTO 0
+	COMPARA COM SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+size tupla(Semelhanças) 559
+ Limpa grupos vazios
+numero de grupos 20926
+Tempo total :    209227.84600 (ms)
+
+numero de grupos 20926
+Numero de grupos + 1 elemento: 6939
+Tempo total :    209444.88200 (ms)
+
+FIM EXECUCAO
+
+Error: no such file "\n\n FoFMadalosso 4 threads, raio 1 \n"
+Iniciando...
+
+ Maximos e Minimos:
+	 x_max : 119.999847 	 y_max: 119.999847 	 z_max: 119.999962 
+	 x_min : 60.000324 	 y_min: 60.000439 	 z_min: 60.000095 
+
+ Entrada : 318133 dados
+raio = 1.000000
+OpenMP Executando
+
+MX: 90.000084
+MY: 90.000145
+MZ: 90.000031
+
+Entrada dividida:
+Quadro 0
+	numero total corpos : 55046
+Quadro 1
+	numero total corpos : 40696
+Quadro 2
+	numero total corpos : 17823
+Quadro 3
+	numero total corpos : 52980
+Quadro 4
+	numero total corpos : 24752
+Quadro 5
+	numero total corpos : 42198
+Quadro 6
+	numero total corpos : 38399
+Quadro 7
+	numero total corpos : 46239
+	 Q0, tamanho da entrada : 55046
+Q:0 	Entrada : 55046 corpos
+	 Q6, tamanho da entrada : 38399
+Q:6 	Entrada : 38399 corpos
+	 Q4, tamanho da entrada : 24752
+Q:4 	Entrada : 24752 corpos
+	 Q2, tamanho da entrada : 17823
+Q:2 	Entrada : 17823 corpos
+LIMITES Segmento 2
+	 MAX 		 MIN 
+X:	 89.999741	 60.000324
+Y:	 119.998016	 90.000999
+Z:	 89.994934	 60.000095
+
+LIMITES Segmento 4
+	 MAX 		 MIN 
+X:	 90.000084	 60.002384
+Y:	 89.997337	 60.000439
+Z:	 119.997444	 90.000885
+
+LIMITES Segmento 0
+	 MAX 		 MIN 
+X:	 89.999512	 60.002155
+Y:	 89.998711	 60.001812
+Z:	 89.999855	 60.000324
+
+LIMITES Segmento 6
+	 MAX 		 MIN 
+X:	 89.999283	 60.002728
+Y:	 119.996986	 90.000656
+Z:	 119.999847	 90.002258
+
+SEMICUBO 2 	 size grupos : 3872
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 2 
+
+	 Q3, tamanho da entrada : 52980
+Q:3 	Entrada : 52980 corpos
+LIMITES Segmento 3
+	 MAX 		 MIN 
+X:	 119.998703	 90.001801
+Y:	 119.996643	 90.000198
+Z:	 89.999969	 60.000896
+
+SEMICUBO 4 	 size grupos : 4033
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 4 
+
+	 Q5, tamanho da entrada : 42198
+Q:5 	Entrada : 42198 corpos
+LIMITES Segmento 5
+	 MAX 		 MIN 
+X:	 119.999733	 90.001457
+Y:	 89.999855	 60.003643
+Z:	 119.999962	 90.000427
+
+SEMICUBO 6 	 size grupos : 4236
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 6 
+
+	 Q7, tamanho da entrada : 46239
+Q:7 	Entrada : 46239 corpos
+LIMITES Segmento 7
+	 MAX 		 MIN 
+X:	 119.999847	 90.000313
+Y:	 119.999847	 90.000999
+Z:	 119.999847	 90.000084
+
+SEMICUBO 5 	 size grupos : 4288
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 5 
+
+SEMICUBO 0 	 size grupos : 3984
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 0 
+
+	 Q1, tamanho da entrada : 40696
+Q:1 	Entrada : 40696 corpos
+LIMITES Segmento 1
+	 MAX 		 MIN 
+X:	 119.999390	 90.000656
+Y:	 90.000084	 60.000668
+Z:	 89.999397	 60.000324
+
+SEMICUBO 7 	 size grupos : 4106
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 7 
+
+SEMICUBO 3 	 size grupos : 4051
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 3 
+
+SEMICUBO 1 	 size grupos : 4227
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 1 
+
+-----
+
+Verificando zonas de fronteira
+
+ Root 0 tem 3984 grupos
+	 Fronteira de seg 0
+	 Numero de nos na fronteira: 8097
+ Root 1 tem 4227 grupos
+	 Fronteira de seg 1
+	 Numero de nos na fronteira: 6820
+ Root 2 tem 3872 grupos
+	 Fronteira de seg 2
+	 Numero de nos na fronteira: 4500
+ Root 3 tem 4051 grupos
+	 Fronteira de seg 3
+	 Numero de nos na fronteira: 21734
+ Root 4 tem 4033 grupos
+	 Fronteira de seg 4
+	 Numero de nos na fronteira: 4012
+ Root 5 tem 4288 grupos
+	 Fronteira de seg 5
+	 Numero de nos na fronteira: 8179
+ Root 6 tem 4236 grupos
+	 Fronteira de seg 6
+	 Numero de nos na fronteira: 6275
+ Root 7 tem 4106 grupos
+	 Fronteira de seg 7
+	 Numero de nos na fronteira: 12223
+-----
+
+VERIFICANDO SEGMENTO 0
+	COMPARA COM SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+size tupla(Semelhanças) 559
+ Limpa grupos vazios
+numero de grupos 20926
+Tempo total :    209046.02200 (ms)
+
+numero de grupos 20926
+Numero de grupos + 1 elemento: 6939
+Tempo total :    209262.86900 (ms)
+
+FIM EXECUCAO
+
+Error: no such file "\n\n FoFMadalosso 4 threads, raio 1 \n"
+Iniciando...
+
+ Maximos e Minimos:
+	 x_max : 119.999847 	 y_max: 119.999847 	 z_max: 119.999962 
+	 x_min : 60.000324 	 y_min: 60.000439 	 z_min: 60.000095 
+
+ Entrada : 318133 dados
+raio = 1.000000
+OpenMP Executando
+
+MX: 90.000084
+MY: 90.000145
+MZ: 90.000031
+
+Entrada dividida:
+Quadro 0
+	numero total corpos : 55046
+Quadro 1
+	numero total corpos : 40696
+Quadro 2
+	numero total corpos : 17823
+Quadro 3
+	numero total corpos : 52980
+Quadro 4
+	numero total corpos : 24752
+Quadro 5
+	numero total corpos : 42198
+Quadro 6
+	numero total corpos : 38399
+Quadro 7
+	numero total corpos : 46239
+	 Q0, tamanho da entrada : 55046
+Q:0 	Entrada : 55046 corpos
+	 Q2, tamanho da entrada : 17823
+Q:2 	Entrada : 17823 corpos
+	 Q4, tamanho da entrada : 24752
+Q:4 	Entrada : 24752 corpos
+	 Q6, tamanho da entrada : 38399
+Q:6 	Entrada : 38399 corpos
+LIMITES Segmento 2
+	 MAX 		 MIN 
+X:	 89.999741	 60.000324
+Y:	 119.998016	 90.000999
+Z:	 89.994934	 60.000095
+
+LIMITES Segmento 4
+	 MAX 		 MIN 
+X:	 90.000084	 60.002384
+Y:	 89.997337	 60.000439
+Z:	 119.997444	 90.000885
+
+LIMITES Segmento 0
+	 MAX 		 MIN 
+X:	 89.999512	 60.002155
+Y:	 89.998711	 60.001812
+Z:	 89.999855	 60.000324
+
+LIMITES Segmento 6
+	 MAX 		 MIN 
+X:	 89.999283	 60.002728
+Y:	 119.996986	 90.000656
+Z:	 119.999847	 90.002258
+
+SEMICUBO 2 	 size grupos : 3872
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 2 
+
+	 Q3, tamanho da entrada : 52980
+Q:3 	Entrada : 52980 corpos
+LIMITES Segmento 3
+	 MAX 		 MIN 
+X:	 119.998703	 90.001801
+Y:	 119.996643	 90.000198
+Z:	 89.999969	 60.000896
+
+SEMICUBO 4 	 size grupos : 4033
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 4 
+
+	 Q5, tamanho da entrada : 42198
+Q:5 	Entrada : 42198 corpos
+LIMITES Segmento 5
+	 MAX 		 MIN 
+X:	 119.999733	 90.001457
+Y:	 89.999855	 60.003643
+Z:	 119.999962	 90.000427
+
+SEMICUBO 6 	 size grupos : 4236
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 6 
+
+	 Q7, tamanho da entrada : 46239
+Q:7 	Entrada : 46239 corpos
+LIMITES Segmento 7
+	 MAX 		 MIN 
+X:	 119.999847	 90.000313
+Y:	 119.999847	 90.000999
+Z:	 119.999847	 90.000084
+
+SEMICUBO 5 	 size grupos : 4288
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 5 
+
+SEMICUBO 0 	 size grupos : 3984
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 0 
+
+	 Q1, tamanho da entrada : 40696
+Q:1 	Entrada : 40696 corpos
+LIMITES Segmento 1
+	 MAX 		 MIN 
+X:	 119.999390	 90.000656
+Y:	 90.000084	 60.000668
+Z:	 89.999397	 60.000324
+
+SEMICUBO 7 	 size grupos : 4106
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 7 
+
+SEMICUBO 3 	 size grupos : 4051
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 3 
+
+SEMICUBO 1 	 size grupos : 4227
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 1 
+
+-----
+
+Verificando zonas de fronteira
+
+ Root 0 tem 3984 grupos
+	 Fronteira de seg 0
+	 Numero de nos na fronteira: 8097
+ Root 1 tem 4227 grupos
+	 Fronteira de seg 1
+	 Numero de nos na fronteira: 6820
+ Root 2 tem 3872 grupos
+	 Fronteira de seg 2
+	 Numero de nos na fronteira: 4500
+ Root 3 tem 4051 grupos
+	 Fronteira de seg 3
+	 Numero de nos na fronteira: 21734
+ Root 4 tem 4033 grupos
+	 Fronteira de seg 4
+	 Numero de nos na fronteira: 4012
+ Root 5 tem 4288 grupos
+	 Fronteira de seg 5
+	 Numero de nos na fronteira: 8179
+ Root 6 tem 4236 grupos
+	 Fronteira de seg 6
+	 Numero de nos na fronteira: 6275
+ Root 7 tem 4106 grupos
+	 Fronteira de seg 7
+	 Numero de nos na fronteira: 12223
+-----
+
+VERIFICANDO SEGMENTO 0
+	COMPARA COM SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+size tupla(Semelhanças) 559
+ Limpa grupos vazios
+numero de grupos 20926
+Tempo total :    209500.32000 (ms)
+
+numero de grupos 20926
+Numero de grupos + 1 elemento: 6939
+Tempo total :    209717.60200 (ms)
+
+FIM EXECUCAO
+
+
+
+ TRES EXECUÇOES 8 0.3Error: no such file "\n\n FoFMadalosso 8 threads, raio 0.3 \n"
+Iniciando...
+
+ Maximos e Minimos:
+	 x_max : 119.999847 	 y_max: 119.999847 	 z_max: 119.999962 
+	 x_min : 60.000324 	 y_min: 60.000439 	 z_min: 60.000095 
+
+ Entrada : 318133 dados
+raio = 0.400000
+OpenMP Executando
+
+MX: 90.000084
+MY: 90.000145
+MZ: 90.000031
+
+Entrada dividida:
+Quadro 0
+	numero total corpos : 55046
+Quadro 1
+	numero total corpos : 40696
+Quadro 2
+	numero total corpos : 17823
+Quadro 3
+	numero total corpos : 52980
+Quadro 4
+	numero total corpos : 24752
+Quadro 5
+	numero total corpos : 42198
+Quadro 6
+	numero total corpos : 38399
+Quadro 7
+	numero total corpos : 46239
+	 Q0, tamanho da entrada : 55046
+Q:0 	Entrada : 55046 corpos
+	 Q4, tamanho da entrada : 24752
+Q:4 	Entrada : 24752 corpos
+	 Q6, tamanho da entrada : 38399
+Q:6 	Entrada : 38399 corpos
+	 Q7, tamanho da entrada : 46239
+Q:7 	Entrada : 46239 corpos
+	 Q2, tamanho da entrada : 17823
+Q:2 	Entrada : 17823 corpos
+	 Q3, tamanho da entrada : 52980
+Q:3 	Entrada : 52980 corpos
+	 Q5, tamanho da entrada : 42198
+Q:5 	Entrada : 42198 corpos
+	 Q1, tamanho da entrada : 40696
+Q:1 	Entrada : 40696 corpos
+LIMITES Segmento 2
+	 MAX 		 MIN 
+X:	 89.999741	 60.000324
+Y:	 119.998016	 90.000999
+Z:	 89.994934	 60.000095
+
+LIMITES Segmento 0
+	 MAX 		 MIN 
+X:	 89.999512	 60.002155
+Y:	 89.998711	 60.001812
+Z:	 89.999855	 60.000324
+
+LIMITES Segmento 4
+	 MAX 		 MIN 
+X:	 90.000084	 60.002384
+Y:	 89.997337	 60.000439
+Z:	 119.997444	 90.000885
+
+LIMITES Segmento 6
+	 MAX 		 MIN 
+X:	 89.999283	 60.002728
+Y:	 119.996986	 90.000656
+Z:	 119.999847	 90.002258
+
+LIMITES Segmento 1
+	 MAX 		 MIN 
+X:	 119.999390	 90.000656
+Y:	 90.000084	 60.000668
+Z:	 89.999397	 60.000324
+
+LIMITES Segmento 5
+	 MAX 		 MIN 
+X:	 119.999733	 90.001457
+Y:	 89.999855	 60.003643
+Z:	 119.999962	 90.000427
+
+LIMITES Segmento 7
+	 MAX 		 MIN 
+X:	 119.999847	 90.000313
+Y:	 119.999847	 90.000999
+Z:	 119.999847	 90.000084
+
+LIMITES Segmento 3
+	 MAX 		 MIN 
+X:	 119.998703	 90.001801
+Y:	 119.996643	 90.000198
+Z:	 89.999969	 60.000896
+
+SEMICUBO 2 	 size grupos : 8030
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 2 
+
+SEMICUBO 4 	 size grupos : 9010
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 4 
+
+SEMICUBO 5 	 size grupos : 12340
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 5 
+
+SEMICUBO 1 	 size grupos : 11065
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 1 
+
+SEMICUBO 6 	 size grupos : 10458
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 6 
+
+SEMICUBO 7 	 size grupos : 12058
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 7 
+
+SEMICUBO 0 	 size grupos : 11063
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 0 
+
+SEMICUBO 3 	 size grupos : 10953
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 3 
+
+-----
+
+Verificando zonas de fronteira
+
+ Root 0 tem 11063 grupos
+	 Fronteira de seg 0
+	 Numero de nos na fronteira: 2422
+ Root 1 tem 11065 grupos
+	 Fronteira de seg 1
+	 Numero de nos na fronteira: 2753
+ Root 2 tem 8030 grupos
+	 Fronteira de seg 2
+	 Numero de nos na fronteira: 1878
+ Root 3 tem 10953 grupos
+	 Fronteira de seg 3
+	 Numero de nos na fronteira: 7852
+ Root 4 tem 9010 grupos
+	 Fronteira de seg 4
+	 Numero de nos na fronteira: 1761
+ Root 5 tem 12340 grupos
+	 Fronteira de seg 5
+	 Numero de nos na fronteira: 3944
+ Root 6 tem 10458 grupos
+	 Fronteira de seg 6
+	 Numero de nos na fronteira: 2814
+ Root 7 tem 12058 grupos
+	 Fronteira de seg 7
+	 Numero de nos na fronteira: 5860
+-----
+
+VERIFICANDO SEGMENTO 0
+	COMPARA COM SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+size tupla(Semelhanças) 350
+ Limpa grupos vazios
+numero de grupos 73302
+Tempo total :    52340.31000 (ms)
+
+numero de grupos 73302
+Numero de grupos + 1 elemento: 20036
+Tempo total :    52609.79200 (ms)
+
+FIM EXECUCAO
+
+Error: no such file "\n\n FoFMadalosso 8 threads, raio 0.3 \n"
+Iniciando...
+
+ Maximos e Minimos:
+	 x_max : 119.999847 	 y_max: 119.999847 	 z_max: 119.999962 
+	 x_min : 60.000324 	 y_min: 60.000439 	 z_min: 60.000095 
+
+ Entrada : 318133 dados
+raio = 0.300000
+OpenMP Executando
+
+MX: 90.000084
+MY: 90.000145
+MZ: 90.000031
+
+Entrada dividida:
+Quadro 0
+	numero total corpos : 55046
+Quadro 1
+	numero total corpos : 40696
+Quadro 2
+	numero total corpos : 17823
+Quadro 3
+	numero total corpos : 52980
+Quadro 4
+	numero total corpos : 24752
+Quadro 5
+	numero total corpos : 42198
+Quadro 6
+	numero total corpos : 38399
+Quadro 7
+	numero total corpos : 46239
+	 Q0, tamanho da entrada : 55046
+Q:0 	Entrada : 55046 corpos
+	 Q5, tamanho da entrada : 42198
+Q:5 	Entrada : 42198 corpos
+	 Q6, tamanho da entrada : 38399
+Q:6 	Entrada : 38399 corpos
+	 Q4, tamanho da entrada : 24752
+	 Q2, tamanho da entrada : 17823
+Q:4 	Entrada : 24752 corpos
+Q:2 	Entrada : 17823 corpos
+	 Q1, tamanho da entrada : 40696
+	 Q7, tamanho da entrada : 46239
+Q:7 	Entrada : 46239 corpos
+	 Q3, tamanho da entrada : 52980
+Q:3 	Entrada : 52980 corpos
+Q:1 	Entrada : 40696 corpos
+LIMITES Segmento 2
+	 MAX 		 MIN 
+X:	 89.999741	 60.000324
+Y:	 119.998016	 90.000999
+Z:	 89.994934	 60.000095
+
+LIMITES Segmento 0
+	 MAX 		 MIN 
+X:	 89.999512	 60.002155
+Y:	 89.998711	 60.001812
+Z:	 89.999855	 60.000324
+
+LIMITES Segmento 4
+	 MAX 		 MIN 
+X:	 90.000084	 60.002384
+Y:	 89.997337	 60.000439
+Z:	 119.997444	 90.000885
+
+LIMITES Segmento 5
+	 MAX 		 MIN 
+X:	 119.999733	 90.001457
+Y:	 89.999855	 60.003643
+Z:	 119.999962	 90.000427
+
+LIMITES Segmento 6
+	 MAX 		 MIN 
+X:	 89.999283	 60.002728
+Y:	 119.996986	 90.000656
+Z:	 119.999847	 90.002258
+
+LIMITES Segmento 1
+	 MAX 		 MIN 
+X:	 119.999390	 90.000656
+Y:	 90.000084	 60.000668
+Z:	 89.999397	 60.000324
+
+LIMITES Segmento 7
+	 MAX 		 MIN 
+X:	 119.999847	 90.000313
+Y:	 119.999847	 90.000999
+Z:	 119.999847	 90.000084
+
+LIMITES Segmento 3
+	 MAX 		 MIN 
+X:	 119.998703	 90.001801
+Y:	 119.996643	 90.000198
+Z:	 89.999969	 60.000896
+
+SEMICUBO 2 	 size grupos : 9009
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 2 
+
+SEMICUBO 4 	 size grupos : 10423
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 4 
+
+SEMICUBO 1 	 size grupos : 13379
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 1 
+
+SEMICUBO 5 	 size grupos : 15064
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 5 
+
+SEMICUBO 7 	 size grupos : 15051
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 7 
+
+SEMICUBO 6 	 size grupos : 12592
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 6 
+
+SEMICUBO 3 	 size grupos : 13612
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 3 
+
+SEMICUBO 0 	 size grupos : 13893
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 0 
+
+-----
+
+Verificando zonas de fronteira
+
+ Root 0 tem 13893 grupos
+	 Fronteira de seg 0
+	 Numero de nos na fronteira: 1838
+ Root 1 tem 13379 grupos
+	 Fronteira de seg 1
+	 Numero de nos na fronteira: 2122
+ Root 2 tem 9009 grupos
+	 Fronteira de seg 2
+	 Numero de nos na fronteira: 1433
+ Root 3 tem 13612 grupos
+	 Fronteira de seg 3
+	 Numero de nos na fronteira: 5457
+ Root 4 tem 10423 grupos
+	 Fronteira de seg 4
+	 Numero de nos na fronteira: 1385
+ Root 5 tem 15064 grupos
+	 Fronteira de seg 5
+	 Numero de nos na fronteira: 3102
+ Root 6 tem 12592 grupos
+	 Fronteira de seg 6
+	 Numero de nos na fronteira: 2234
+ Root 7 tem 15051 grupos
+	 Fronteira de seg 7
+	 Numero de nos na fronteira: 4623
+-----
+
+VERIFICANDO SEGMENTO 0
+	COMPARA COM SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+size tupla(Semelhanças) 304
+ Limpa grupos vazios
+numero de grupos 90305
+Tempo total :    33180.05300 (ms)
+
+numero de grupos 90305
+Numero de grupos + 1 elemento: 22511
+Tempo total :    33482.01800 (ms)
+
+FIM EXECUCAO
+
+Error: no such file "\n\n FoFMadalosso 8 threads, raio 0.3 \n"
+Iniciando...
+
+ Maximos e Minimos:
+	 x_max : 119.999847 	 y_max: 119.999847 	 z_max: 119.999962 
+	 x_min : 60.000324 	 y_min: 60.000439 	 z_min: 60.000095 
+
+ Entrada : 318133 dados
+raio = 0.300000
+OpenMP Executando
+
+MX: 90.000084
+MY: 90.000145
+MZ: 90.000031
+
+Entrada dividida:
+Quadro 0
+	numero total corpos : 55046
+Quadro 1
+	numero total corpos : 40696
+Quadro 2
+	numero total corpos : 17823
+Quadro 3
+	numero total corpos : 52980
+Quadro 4
+	numero total corpos : 24752
+Quadro 5
+	numero total corpos : 42198
+Quadro 6
+	numero total corpos : 38399
+Quadro 7
+	numero total corpos : 46239
+	 Q0, tamanho da entrada : 55046
+Q:0 	Entrada : 55046 corpos
+	 Q4, tamanho da entrada : 24752
+Q:4 	Entrada : 24752 corpos
+	 Q7, tamanho da entrada : 46239
+Q:7 	Entrada : 46239 corpos
+	 Q3, tamanho da entrada : 52980
+	 Q5, tamanho da entrada : 42198
+	 Q1, tamanho da entrada : 40696
+Q:3 	Entrada : 52980 corpos
+	 Q6, tamanho da entrada : 38399
+Q:5 	Entrada : 42198 corpos
+Q:6 	Entrada : 38399 corpos
+	 Q2, tamanho da entrada : 17823
+Q:1 	Entrada : 40696 corpos
+Q:2 	Entrada : 17823 corpos
+LIMITES Segmento 2
+	 MAX 		 MIN 
+X:	 89.999741	 60.000324
+Y:	 119.998016	 90.000999
+Z:	 89.994934	 60.000095
+
+LIMITES Segmento 4
+	 MAX 		 MIN 
+X:	 90.000084	 60.002384
+Y:	 89.997337	 60.000439
+Z:	 119.997444	 90.000885
+
+LIMITES Segmento 0
+	 MAX 		 MIN 
+X:	 89.999512	 60.002155
+Y:	 89.998711	 60.001812
+Z:	 89.999855	 60.000324
+
+LIMITES Segmento 6
+	 MAX 		 MIN 
+X:	 89.999283	 60.002728
+Y:	 119.996986	 90.000656
+Z:	 119.999847	 90.002258
+
+LIMITES Segmento 1
+	 MAX 		 MIN 
+X:	 119.999390	 90.000656
+Y:	 90.000084	 60.000668
+Z:	 89.999397	 60.000324
+
+LIMITES Segmento 5
+	 MAX 		 MIN 
+X:	 119.999733	 90.001457
+Y:	 89.999855	 60.003643
+Z:	 119.999962	 90.000427
+
+LIMITES Segmento 7
+	 MAX 		 MIN 
+X:	 119.999847	 90.000313
+Y:	 119.999847	 90.000999
+Z:	 119.999847	 90.000084
+
+LIMITES Segmento 3
+	 MAX 		 MIN 
+X:	 119.998703	 90.001801
+Y:	 119.996643	 90.000198
+Z:	 89.999969	 60.000896
+
+SEMICUBO 2 	 size grupos : 9009
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 2 
+
+SEMICUBO 4 	 size grupos : 10423
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 4 
+
+SEMICUBO 5 	 size grupos : 15064
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 5 
+
+SEMICUBO 1 	 size grupos : 13379
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 1 
+
+SEMICUBO 7 	 size grupos : 15051
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 7 
+
+SEMICUBO 6 	 size grupos : 12592
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 6 
+
+SEMICUBO 3 	 size grupos : 13612
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 3 
+
+SEMICUBO 0 	 size grupos : 13893
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 0 
+
+-----
+
+Verificando zonas de fronteira
+
+ Root 0 tem 13893 grupos
+	 Fronteira de seg 0
+	 Numero de nos na fronteira: 1838
+ Root 1 tem 13379 grupos
+	 Fronteira de seg 1
+	 Numero de nos na fronteira: 2122
+ Root 2 tem 9009 grupos
+	 Fronteira de seg 2
+	 Numero de nos na fronteira: 1433
+ Root 3 tem 13612 grupos
+	 Fronteira de seg 3
+	 Numero de nos na fronteira: 5457
+ Root 4 tem 10423 grupos
+	 Fronteira de seg 4
+	 Numero de nos na fronteira: 1385
+ Root 5 tem 15064 grupos
+	 Fronteira de seg 5
+	 Numero de nos na fronteira: 3102
+ Root 6 tem 12592 grupos
+	 Fronteira de seg 6
+	 Numero de nos na fronteira: 2234
+ Root 7 tem 15051 grupos
+	 Fronteira de seg 7
+	 Numero de nos na fronteira: 4623
+-----
+
+VERIFICANDO SEGMENTO 0
+	COMPARA COM SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+size tupla(Semelhanças) 304
+ Limpa grupos vazios
+numero de grupos 90305
+Tempo total :    32787.28300 (ms)
+
+numero de grupos 90305
+Numero de grupos + 1 elemento: 22511
+Tempo total :    33076.97900 (ms)
+
+FIM EXECUCAO
+
+
+
+ TRES EXECUÇOES 4 0.3Error: no such file "\n\n FoFMadalosso 4 threads, raio 0.3 \n"
+Iniciando...
+
+ Maximos e Minimos:
+	 x_max : 119.999847 	 y_max: 119.999847 	 z_max: 119.999962 
+	 x_min : 60.000324 	 y_min: 60.000439 	 z_min: 60.000095 
+
+ Entrada : 318133 dados
+raio = 0.400000
+OpenMP Executando
+
+MX: 90.000084
+MY: 90.000145
+MZ: 90.000031
+
+Entrada dividida:
+Quadro 0
+	numero total corpos : 55046
+Quadro 1
+	numero total corpos : 40696
+Quadro 2
+	numero total corpos : 17823
+Quadro 3
+	numero total corpos : 52980
+Quadro 4
+	numero total corpos : 24752
+Quadro 5
+	numero total corpos : 42198
+Quadro 6
+	numero total corpos : 38399
+Quadro 7
+	numero total corpos : 46239
+	 Q0, tamanho da entrada : 55046
+Q:0 	Entrada : 55046 corpos
+	 Q2, tamanho da entrada : 17823
+Q:2 	Entrada : 17823 corpos
+	 Q4, tamanho da entrada : 24752
+Q:4 	Entrada : 24752 corpos
+	 Q6, tamanho da entrada : 38399
+Q:6 	Entrada : 38399 corpos
+LIMITES Segmento 2
+	 MAX 		 MIN 
+X:	 89.999741	 60.000324
+Y:	 119.998016	 90.000999
+Z:	 89.994934	 60.000095
+
+LIMITES Segmento 4
+	 MAX 		 MIN 
+X:	 90.000084	 60.002384
+Y:	 89.997337	 60.000439
+Z:	 119.997444	 90.000885
+
+LIMITES Segmento 0
+	 MAX 		 MIN 
+X:	 89.999512	 60.002155
+Y:	 89.998711	 60.001812
+Z:	 89.999855	 60.000324
+
+LIMITES Segmento 6
+	 MAX 		 MIN 
+X:	 89.999283	 60.002728
+Y:	 119.996986	 90.000656
+Z:	 119.999847	 90.002258
+
+SEMICUBO 2 	 size grupos : 8030
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 2 
+
+	 Q3, tamanho da entrada : 52980
+Q:3 	Entrada : 52980 corpos
+LIMITES Segmento 3
+	 MAX 		 MIN 
+X:	 119.998703	 90.001801
+Y:	 119.996643	 90.000198
+Z:	 89.999969	 60.000896
+
+SEMICUBO 4 	 size grupos : 9010
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 4 
+
+	 Q5, tamanho da entrada : 42198
+Q:5 	Entrada : 42198 corpos
+LIMITES Segmento 5
+	 MAX 		 MIN 
+X:	 119.999733	 90.001457
+Y:	 89.999855	 60.003643
+Z:	 119.999962	 90.000427
+
+SEMICUBO 6 	 size grupos : 10458
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 6 
+
+	 Q7, tamanho da entrada : 46239
+Q:7 	Entrada : 46239 corpos
+LIMITES Segmento 7
+	 MAX 		 MIN 
+X:	 119.999847	 90.000313
+Y:	 119.999847	 90.000999
+Z:	 119.999847	 90.000084
+
+SEMICUBO 5 	 size grupos : 12340
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 5 
+
+SEMICUBO 0 	 size grupos : 11063
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 0 
+
+	 Q1, tamanho da entrada : 40696
+Q:1 	Entrada : 40696 corpos
+LIMITES Segmento 1
+	 MAX 		 MIN 
+X:	 119.999390	 90.000656
+Y:	 90.000084	 60.000668
+Z:	 89.999397	 60.000324
+
+SEMICUBO 7 	 size grupos : 12058
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 7 
+
+SEMICUBO 3 	 size grupos : 10953
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 3 
+
+SEMICUBO 1 	 size grupos : 11065
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 1 
+
+-----
+
+Verificando zonas de fronteira
+
+ Root 0 tem 11063 grupos
+	 Fronteira de seg 0
+	 Numero de nos na fronteira: 2422
+ Root 1 tem 11065 grupos
+	 Fronteira de seg 1
+	 Numero de nos na fronteira: 2753
+ Root 2 tem 8030 grupos
+	 Fronteira de seg 2
+	 Numero de nos na fronteira: 1878
+ Root 3 tem 10953 grupos
+	 Fronteira de seg 3
+	 Numero de nos na fronteira: 7852
+ Root 4 tem 9010 grupos
+	 Fronteira de seg 4
+	 Numero de nos na fronteira: 1761
+ Root 5 tem 12340 grupos
+	 Fronteira de seg 5
+	 Numero de nos na fronteira: 3944
+ Root 6 tem 10458 grupos
+	 Fronteira de seg 6
+	 Numero de nos na fronteira: 2814
+ Root 7 tem 12058 grupos
+	 Fronteira de seg 7
+	 Numero de nos na fronteira: 5860
+-----
+
+VERIFICANDO SEGMENTO 0
+	COMPARA COM SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+size tupla(Semelhanças) 350
+ Limpa grupos vazios
+numero de grupos 73302
+Tempo total :    36297.12100 (ms)
+
+numero de grupos 73302
+Numero de grupos + 1 elemento: 20036
+Tempo total :    36584.39500 (ms)
+
+FIM EXECUCAO
+
+Error: no such file "\n\n FoFMadalosso 4 threads, raio 0.3 \n"
+Iniciando...
+
+ Maximos e Minimos:
+	 x_max : 119.999847 	 y_max: 119.999847 	 z_max: 119.999962 
+	 x_min : 60.000324 	 y_min: 60.000439 	 z_min: 60.000095 
+
+ Entrada : 318133 dados
+raio = 0.300000
+OpenMP Executando
+
+MX: 90.000084
+MY: 90.000145
+MZ: 90.000031
+
+Entrada dividida:
+Quadro 0
+	numero total corpos : 55046
+Quadro 1
+	numero total corpos : 40696
+Quadro 2
+	numero total corpos : 17823
+Quadro 3
+	numero total corpos : 52980
+Quadro 4
+	numero total corpos : 24752
+Quadro 5
+	numero total corpos : 42198
+Quadro 6
+	numero total corpos : 38399
+Quadro 7
+	numero total corpos : 46239
+	 Q0, tamanho da entrada : 55046
+Q:0 	Entrada : 55046 corpos
+	 Q4, tamanho da entrada : 24752
+Q:4 	Entrada : 24752 corpos
+	 Q6, tamanho da entrada : 38399
+Q:6 	Entrada : 38399 corpos
+	 Q2, tamanho da entrada : 17823
+Q:2 	Entrada : 17823 corpos
+LIMITES Segmento 2
+	 MAX 		 MIN 
+X:	 89.999741	 60.000324
+Y:	 119.998016	 90.000999
+Z:	 89.994934	 60.000095
+
+LIMITES Segmento 4
+	 MAX 		 MIN 
+X:	 90.000084	 60.002384
+Y:	 89.997337	 60.000439
+Z:	 119.997444	 90.000885
+
+LIMITES Segmento 0
+	 MAX 		 MIN 
+X:	 89.999512	 60.002155
+Y:	 89.998711	 60.001812
+Z:	 89.999855	 60.000324
+
+LIMITES Segmento 6
+	 MAX 		 MIN 
+X:	 89.999283	 60.002728
+Y:	 119.996986	 90.000656
+Z:	 119.999847	 90.002258
+
+SEMICUBO 2 	 size grupos : 9009
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 2 
+
+	 Q3, tamanho da entrada : 52980
+Q:3 	Entrada : 52980 corpos
+LIMITES Segmento 3
+	 MAX 		 MIN 
+X:	 119.998703	 90.001801
+Y:	 119.996643	 90.000198
+Z:	 89.999969	 60.000896
+
+SEMICUBO 4 	 size grupos : 10423
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 4 
+
+	 Q5, tamanho da entrada : 42198
+Q:5 	Entrada : 42198 corpos
+LIMITES Segmento 5
+	 MAX 		 MIN 
+X:	 119.999733	 90.001457
+Y:	 89.999855	 60.003643
+Z:	 119.999962	 90.000427
+
+SEMICUBO 6 	 size grupos : 12592
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 6 
+
+	 Q7, tamanho da entrada : 46239
+Q:7 	Entrada : 46239 corpos
+LIMITES Segmento 7
+	 MAX 		 MIN 
+X:	 119.999847	 90.000313
+Y:	 119.999847	 90.000999
+Z:	 119.999847	 90.000084
+
+SEMICUBO 5 	 size grupos : 15064
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 5 
+
+SEMICUBO 0 	 size grupos : 13893
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 0 
+
+	 Q1, tamanho da entrada : 40696
+Q:1 	Entrada : 40696 corpos
+LIMITES Segmento 1
+	 MAX 		 MIN 
+X:	 119.999390	 90.000656
+Y:	 90.000084	 60.000668
+Z:	 89.999397	 60.000324
+
+SEMICUBO 7 	 size grupos : 15051
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 7 
+
+SEMICUBO 3 	 size grupos : 13612
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 3 
+
+SEMICUBO 1 	 size grupos : 13379
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 1 
+
+-----
+
+Verificando zonas de fronteira
+
+ Root 0 tem 13893 grupos
+	 Fronteira de seg 0
+	 Numero de nos na fronteira: 1838
+ Root 1 tem 13379 grupos
+	 Fronteira de seg 1
+	 Numero de nos na fronteira: 2122
+ Root 2 tem 9009 grupos
+	 Fronteira de seg 2
+	 Numero de nos na fronteira: 1433
+ Root 3 tem 13612 grupos
+	 Fronteira de seg 3
+	 Numero de nos na fronteira: 5457
+ Root 4 tem 10423 grupos
+	 Fronteira de seg 4
+	 Numero de nos na fronteira: 1385
+ Root 5 tem 15064 grupos
+	 Fronteira de seg 5
+	 Numero de nos na fronteira: 3102
+ Root 6 tem 12592 grupos
+	 Fronteira de seg 6
+	 Numero de nos na fronteira: 2234
+ Root 7 tem 15051 grupos
+	 Fronteira de seg 7
+	 Numero de nos na fronteira: 4623
+-----
+
+VERIFICANDO SEGMENTO 0
+	COMPARA COM SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+size tupla(Semelhanças) 304
+ Limpa grupos vazios
+numero de grupos 90305
+Tempo total :    22744.86500 (ms)
+
+numero de grupos 90305
+Numero de grupos + 1 elemento: 22511
+Tempo total :    23050.00300 (ms)
+
+FIM EXECUCAO
+
+Error: no such file "\n\n FoFMadalosso 4 threads, raio 0.3 \n"
+Iniciando...
+
+ Maximos e Minimos:
+	 x_max : 119.999847 	 y_max: 119.999847 	 z_max: 119.999962 
+	 x_min : 60.000324 	 y_min: 60.000439 	 z_min: 60.000095 
+
+ Entrada : 318133 dados
+raio = 0.300000
+OpenMP Executando
+
+MX: 90.000084
+MY: 90.000145
+MZ: 90.000031
+
+Entrada dividida:
+Quadro 0
+	numero total corpos : 55046
+Quadro 1
+	numero total corpos : 40696
+Quadro 2
+	numero total corpos : 17823
+Quadro 3
+	numero total corpos : 52980
+Quadro 4
+	numero total corpos : 24752
+Quadro 5
+	numero total corpos : 42198
+Quadro 6
+	numero total corpos : 38399
+Quadro 7
+	numero total corpos : 46239
+	 Q0, tamanho da entrada : 55046
+Q:0 	Entrada : 55046 corpos
+	 Q2, tamanho da entrada : 17823
+Q:2 	Entrada : 17823 corpos
+	 Q4, tamanho da entrada : 24752
+Q:4 	Entrada : 24752 corpos
+	 Q6, tamanho da entrada : 38399
+Q:6 	Entrada : 38399 corpos
+LIMITES Segmento 2
+	 MAX 		 MIN 
+X:	 89.999741	 60.000324
+Y:	 119.998016	 90.000999
+Z:	 89.994934	 60.000095
+
+LIMITES Segmento 4
+	 MAX 		 MIN 
+X:	 90.000084	 60.002384
+Y:	 89.997337	 60.000439
+Z:	 119.997444	 90.000885
+
+LIMITES Segmento 0
+	 MAX 		 MIN 
+X:	 89.999512	 60.002155
+Y:	 89.998711	 60.001812
+Z:	 89.999855	 60.000324
+
+LIMITES Segmento 6
+	 MAX 		 MIN 
+X:	 89.999283	 60.002728
+Y:	 119.996986	 90.000656
+Z:	 119.999847	 90.002258
+
+SEMICUBO 2 	 size grupos : 9009
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 2 
+
+	 Q3, tamanho da entrada : 52980
+Q:3 	Entrada : 52980 corpos
+LIMITES Segmento 3
+	 MAX 		 MIN 
+X:	 119.998703	 90.001801
+Y:	 119.996643	 90.000198
+Z:	 89.999969	 60.000896
+
+SEMICUBO 4 	 size grupos : 10423
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 4 
+
+	 Q5, tamanho da entrada : 42198
+Q:5 	Entrada : 42198 corpos
+LIMITES Segmento 5
+	 MAX 		 MIN 
+X:	 119.999733	 90.001457
+Y:	 89.999855	 60.003643
+Z:	 119.999962	 90.000427
+
+SEMICUBO 6 	 size grupos : 12592
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 6 
+
+	 Q7, tamanho da entrada : 46239
+Q:7 	Entrada : 46239 corpos
+LIMITES Segmento 7
+	 MAX 		 MIN 
+X:	 119.999847	 90.000313
+Y:	 119.999847	 90.000999
+Z:	 119.999847	 90.000084
+
+SEMICUBO 5 	 size grupos : 15064
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 5 
+
+SEMICUBO 0 	 size grupos : 13893
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 0 
+
+	 Q1, tamanho da entrada : 40696
+Q:1 	Entrada : 40696 corpos
+LIMITES Segmento 1
+	 MAX 		 MIN 
+X:	 119.999390	 90.000656
+Y:	 90.000084	 60.000668
+Z:	 89.999397	 60.000324
+
+SEMICUBO 7 	 size grupos : 15051
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 7 
+
+SEMICUBO 3 	 size grupos : 13612
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 3 
+
+SEMICUBO 1 	 size grupos : 13379
+----------------------- IMPRIMINDO GRUPOS ------------------------
+
+Terminou loop 1 
+
+-----
+
+Verificando zonas de fronteira
+
+ Root 0 tem 13893 grupos
+	 Fronteira de seg 0
+	 Numero de nos na fronteira: 1838
+ Root 1 tem 13379 grupos
+	 Fronteira de seg 1
+	 Numero de nos na fronteira: 2122
+ Root 2 tem 9009 grupos
+	 Fronteira de seg 2
+	 Numero de nos na fronteira: 1433
+ Root 3 tem 13612 grupos
+	 Fronteira de seg 3
+	 Numero de nos na fronteira: 5457
+ Root 4 tem 10423 grupos
+	 Fronteira de seg 4
+	 Numero de nos na fronteira: 1385
+ Root 5 tem 15064 grupos
+	 Fronteira de seg 5
+	 Numero de nos na fronteira: 3102
+ Root 6 tem 12592 grupos
+	 Fronteira de seg 6
+	 Numero de nos na fronteira: 2234
+ Root 7 tem 15051 grupos
+	 Fronteira de seg 7
+	 Numero de nos na fronteira: 4623
+-----
+
+VERIFICANDO SEGMENTO 0
+	COMPARA COM SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 1
+	COMPARA COM SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 2
+	COMPARA COM SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 3
+	COMPARA COM SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 4
+	COMPARA COM SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 5
+	COMPARA COM SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+VERIFICANDO SEGMENTO 6
+	COMPARA COM SEGMENTO 7
+size tupla(Semelhanças) 304
+ Limpa grupos vazios
+numero de grupos 90305
+Tempo total :    22391.82600 (ms)
+
+numero de grupos 90305
+Numero de grupos + 1 elemento: 22511
+Tempo total :    22695.20100 (ms)
+
+FIM EXECUCAO
+
+SERIAL raio 1Iniciando...
+Raio de Percolação (em Mpc): 1.000000 Numero total de grupos: 25772 
+Grupos com massa maior que 1: 10415 
+ Terminou 
+Tempos em microsegundos. Leitura: 733290 Friends: 954098717 Limpeza: 643SERIAL raio 0.5Iniciando...
+Raio de Percolação (em Mpc): 0.500000 Numero total de grupos: 64502 
+Grupos com massa maior que 1: 20202 
+ Terminou 
+Tempos em microsegundos. Leitura: 732050 Friends: 1160681243 Limpeza: 624SERIAL raio 0.3Iniciando...
+Raio de Percolação (em Mpc): 0.300000 Numero total de grupos: 94914 
+Grupos com massa maior que 1: 25190 
+ Terminou 
+Tempos em microsegundos. Leitura: 734394 Friends: 1207370593 Limpeza: 643
