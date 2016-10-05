@@ -105,9 +105,6 @@ Caso não exista um filho na posição calculada, aloca-se um objeto nó para es
 
 
 
-TODO!!!!! Completar o funcionamento do algoritmo. Comparação entre segmentos, fronteiras e etc.
-
-
 ##Sobre os testes                
 
 
@@ -157,7 +154,10 @@ Os resultados do agrupamento realizado por este algoritmo diferem radicalmente d
 Abaixo encontram-se algumas imagens referentes ao *profiling* da aplicação realizado através do software *Intel VTune Amplifier*.
 
 Sumário da execução do algoritmo. Similar para todas as execuções.
-![raio1](raio1bottomup.png "Profile raio 1")
+![sumario](05basicsummary.png "Profile raio 1")
+
+O sumário da execução do algoritmo já apresenta de cara um fator prejudicial a performance: o tempo em que os 4 *cores* de processamento executam simultâneamente é curto, enquanto o tempo em que apenas um *core* trabalha é alto. Isto pode indicar que a paralelização do código não está sendo tão efetiva quanto deveria ser. Cabe uma análise da paralelização feita e como ela pode ser alterada para que a carga seja melhor balanceada entre todos os *cores*.
+
 
 Profile da aplicação com raio = 1.
 
