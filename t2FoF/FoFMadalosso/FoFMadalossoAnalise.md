@@ -154,13 +154,21 @@ Os resultados do agrupamento realizado por este algoritmo diferem radicalmente d
 
 ##Profiling 
 
+Abaixo encontram-se algumas imagens referentes ao *profiling* da aplicação realizado através do software *Intel VTune Amplifier*.
+
+Sumário da execução do algoritmo. Similar para todas as execuções.
+![raio1](raio1bottomup.png "Profile raio 1")
+
 Profile da aplicação com raio = 1.
+
 ![raio1](raio1bottomup.png "Profile raio 1")
 
 Profile da aplicação com raio = 0,5.
+
 ![raio05](raio05bottomup.png "Profile raio 0,5")
 
 Profile da aplicação com raio = 0,3.
+
 ![raio03](raio03bottomup.png "Profile raio 0,3")
 
 Nas imagens obtidas através do *profiling* da aplicação, obtivemos dois padrões de execução. Um padrão repetiu-se para as excecuções com raio 0.5 e raio 1, enquanto o segundo padrão apareceu na execução onde o valor do raio era 0.3.
