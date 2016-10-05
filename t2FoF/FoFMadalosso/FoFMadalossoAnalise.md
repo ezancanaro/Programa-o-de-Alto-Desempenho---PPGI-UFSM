@@ -122,13 +122,19 @@ Os testes foram executados em uma máquina com as seguintes configurações:
 Foram executados testes com o mesmo arquivo de entrada, que apresenta 318133 partículas, utilizando como raio de percolação os valores: 2,4,16,32. Para uma melhor representação dos tempos, foram realizadas 4 execuções de cada método e compilado um valor médio para o tempo de cada.
 
 
-| Raio | FoFOriginal(s)| Serial(s)  | 8 Threads(s) | 4 Threads(s) | Speedup(O) 8T | Speedup(O) 4T | Speedup 8 | Speedup 4|
-| ---- | ------------: |-----------:|------------: | -----------: | ---------: | ---------: | ---------:| --------:|
-| 1    |  954,832650   | 368,271043 |252,2598610   |  209,4751176 |     3,7851 | 4,5582		| 1,4599    | 1,7581
-| 0,50 | 1161,413917   | 137,098786 |73,6095873    |   54,6247256 |    15,7780 | 21,2616    | 1,8625    | 2.5098
-| 0,3  | 1208,105630   | 76,0197616 |39,7229296*   |  27,4431996* |    30,4133 | 44,0220    | 1,9138    | 2.7701 
+| Raio | FoFOriginal(s)| Serial(s)  | 8 Threads(s) | 4 Threads(s) | 2 Threads(s)
+|:----:| ------------: |-----------:|------------: | -----------: | -----------:
+| 1    |  954,832650   | 368,271043 |252,2598610   |  209,4751176 | 242,950574
+| 0,50 | 1161,413917   | 137,098786 |73,6095873    |   54,6247256 | 69,959858
+| 0,3  | 1208,105630   | 76,0197616 |39,7229296*   |  27,4431996* | 30,1550143333 
 
-Obs: Na tabela, o speedup(O) foi calculado com base no tempo de execução do algoritmo original. Os demais utilizaram a execução serial deste novo algoritmo.
+A tabela abaixo apresenta o Speedup encontrado com cada configuração de parâmetros:
+
+ N threads |Raio 1    | Raio 0,5 | Raio 0,3
+ :--------:| --------:| --------:|----------:
+ 	8	   |1,4599    | 1,8625   | 1,9138 
+ 	4	   |1,7581    | 2,5098   | 2,7701
+ 	2	   |1,5158    | 1,9596   | 2,5210
 
 *Das 3 execuções usadas para calcular a média, a primeira obteve um tempo de execução de 50% maior que as restantes.
 Observando a tabela de resultados, pode-se concluir que o tempo da execução serial sofre muito com um raio menor. Já as execuções com Threads obtiveram um desempenho muito melhor, esse ganho se dá ao fato da grande palelização dos cálculos. Entretanto, os testes com 4 threads foram melhores que os de 8. Sendo assim, para otimizar de forma melhor ainda o resultado do algoritmo deve-se levar em consideração o balanço entre desempenho e custo.
@@ -143,6 +149,42 @@ Os resultados do agrupamento realizado por este algoritmo diferem radicalmente d
 | 0.3| 94914				   |   90301
 
 É evidente pela tabela que os algoritmos não realizam o mesmo agrupamento, embora as partículas e o raio de entrada sejam exatamente iguais. Esta discrepância pode apontar que existem erros na realização do agrupamento de um dos algoritmos, visto que a técnica Friends of Friends deveria garantir sempre um agrupamento constante para um conjunto de dados e um determinado raio. Como explicar este comportamento?
+
+
+
+##Profiling 
+
+Profile da aplicação com raio = 1.
+![raio1](raio1bottomup.png "Profile raio 1")
+
+Profile da aplicação com raio = 0,5.
+![raio05](raio05bottomup.png "Profile raio 0,5")
+
+Profile da aplicação com raio = 0,3.
+![raio03](raio03bottomup.png "Profile raio 0,3")
+
+Nas imagens obtidas através do *profiling* da aplicação, obtivemos dois padrões de execução. Um padrão repetiu-se para as excecuções com raio 0.5 e raio 1, enquanto o segundo padrão apareceu na execução onde o valor do raio era 0.3.
+
+No primeiro padrão, podemos ver que o tempo de execução da mesma concentra-se nas funções **ver** e **verif**. Outras funções que demonstrar alto tempo de execução foram, sem ordenamento: **vsprintf**, **main** e **No:add**. As primeiras duas funções são responsáveis por calcular a distância entre dois pontos através da fórmula algébrica comum, a diferença entre elas é que a função **ver** é chamada durante a inclusão de nós na árvore do programa, mais especificamente dentro do método **add** da classe **No**, o qual age recursivamente. Existem três chamadas a esta função durante a inclusão de um nó na árvore: 
+
+1. Dentro de um laço for quando o raio desejado é maior do que o semicubo que engloba o ponto, de forma que o ponto deve ser incluído na área de fronteira daquele cubo e sua distância com outros pontos fronteiriços comparada para o agrupamento.
+2. Quando o ponto é adicionado a árvore em algum quadro do seu nó pai. Aqui a função é chamada dentro de um laço for que abrange todos os corpos vizinhos a ele, ou seja, todos os filhos do seu nó pai (8 neste algoritmo).
+3. Dentro do laço for descrito acima, existe um segundo laço abrangendo todos os nós pertencentes a fronteira do filho sendo examinado no laço acima. Para cada execução deste laço existe uma chamada a função **ver**. 
+
+A função **verif**, por sua vez, é chamada na **main** do programa, quando o algoritmo realiza a comparação das fronteiras dos segmentos. Esta função é chamada dentro de um laço executado para comparar todos os pontos da região de fronteira.
+
+É interessante observar a diferença nos tempos de execução da função **ver** com os diferentes valores de raio:
+
+1. Com raio 1, o tempo de execução foi 77,071s.
+2. Com raio 0,5, o tempo foi 26,485s.
+3. Com raio 0,3, o tempo total foi 12,274s.
+A explicação do algoritmo, bem como das chamadas da função já explica este fenômeno, pois a função é chamada diversas vezes para comparações com pontos que estão nas zonas de fronteira e, quando o raio é maior, aumenta o número de pontos que serão alocados na fronteira de um semi-cubo.
+
+Considerando apenas estas duas funções, uma alternativa para melhorar o desempenho seria otimizar a execução do cálculo da distância ou diminuir o número de vezes em que esta função é chamada. A primeira opção apresenta dificuldades técnicas, pois o algoritmo precisaria implementar técnicas para o cálculo de raiz quadrada que superem o desempenho já otimizado das instruções dos processadores modernos.
+
+A segunda opção parece mais viável. No algoritmo atual, uma partícula é testada contra todos seus vizinhos, mesmo aqueles que pertencem ao mesmo grupo ao qual ela foi alocada, cálculo desnecessário. Evitando estes cálculos poderíamos obter uma melhoria no desempenho do algoritmo, especialmente em espaços onde as partículas encontram-se mais concentradas.
+
+
 
 
 ##Referências
