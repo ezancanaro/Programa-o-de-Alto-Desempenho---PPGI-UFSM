@@ -196,7 +196,7 @@ A segunda opção parece mais viável. No algoritmo atual, uma partícula é tes
 
 Nas opções de análises do *Intel VTune Amplifier* exite o Concurrency, que pela descrição deverá mostrar como a aplicação está utilizando CPUs lógicas disponíveis, e onde o paralelismo está demonstrando problemas.
 
-Foi executado o mesmo algoritmo com 4 threads, mesmos dados de entrada e raio de percolação 1. Com a análise concurrency, é possível observar melhora na utilização dos cores, utilizando por bastante tempo os 4 em paralelo. Porém um detalhe a observar é que o tempo de execução total foi maior que a análise Base, um dos fatores a levar em consideração é que na análise Concurrency é adicionado um overhead na execução da aplicação, o que pode levemente influenciar no tempo total de execução. A imagem abaixo mostra o Summary e a utilização de threads da análise **Base** versus **Concurrency**.
+Foi executado o mesmo algoritmo com 4 threads, mesmos dados de entrada e raio de percolação 1. Com a análise concurrency, é possível observar melhora na utilização dos cores, utilizando por bastante tempo os 4 em paralelo. Porém um detalhe a observar é que o tempo de execução total foi maior que a análise Basic, um dos fatores a levar em consideração é que na análise Concurrency é adicionado um overhead na execução da aplicação, o que pode levemente influenciar no tempo total de execução. A imagem abaixo mostra o Summary e a utilização de threads da análise **Basic Hotspots** versus **Concurrency**.
 
 [fazerimagem]
 
