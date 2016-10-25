@@ -192,7 +192,13 @@ Considerando apenas estas duas funções, uma alternativa para melhorar o desemp
 
 A segunda opção parece mais viável. No algoritmo atual, uma partícula é testada contra todos seus vizinhos, mesmo aqueles que pertencem ao mesmo grupo ao qual ela foi alocada, cálculo desnecessário. Evitando estes cálculos poderíamos obter uma melhoria no desempenho do algoritmo, especialmente em espaços onde as partículas encontram-se mais concentradas.
 
+##Concurrency Analysis
 
+Nas opções de análises do Intel VTune Amplifier exite o Concurrency, que pela descrição deverá mostrar como a aplicação está utilizando CPUs lógicas disponíveis, e onde o paralelismo está demonstrando problemas.
+
+Foi executado o mesmo algorítmo com 4 threads, mesmos dados de entrada e raio de percolação 1. Com a análise concurrency, é possível observar melhora na utilização dos cores, utilizando por bastante tempo os 4 em paralelo. Porém um detalhe a observar é que o tempo de execução total foi maior que a análise Base, um dos fatores a levar em consideração é que na análise Concurrency é adicionado um overhead na execução da aplicação, o que pode levemente influenciar no tempo total de execução. A imagem abaixo mostra o Summary e a utilização de threads da análise Base versus Concurrency.
+
+[fazerimagem]
 
 
 ##Referências
