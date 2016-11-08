@@ -202,6 +202,24 @@ Foi executado o mesmo algoritmo com 4 threads, mesmos dados de entrada e raio de
 A direita **Basic Hotspots** e a esquerda **Concurrency**.
 
 
+##Usando o Intel Vtune via SSH
+
+O programa pode realizar o profiling de programas via conexão SSH entre um host e um target. Para tal, foi necessário realizar a instalação do software no servidor linux utilizado para os testes. Neste servidor, o profiler foi instalado sem permissão de *root*, fazendo com que algumas funções do programa (não especificadas pelo instalador) não fossem disponibilizadas. 
+
+Realizada a instalação e configuração da ferramenta, tentamos realizar o profiling em SSH da ferramenta. Em um primeiro momento, encontramos problemas referentes a versão do programa, diferente em cada uma das máquinas. Realizadas as atualizações necessárias, encontramos um segundo problema: o programa não consegue a permissão para realizar a troca de arquivos entre as máquinas, sendo incapaz de realizar o profiling pois depende da transferência de um arquivo de configuração da máquina local para a máquina target. A transferência manual deste arquivo para o diretório especificado pelo programa não resolveu o problema.
+
+
+##Modificando o código em busca de melhoria na performance
+
+Uma modificação explorada no código foi a inclusão de um teste antes da comparação da distância entre duas partículas, impedindo que duas partículas de um mesmo grupo realizem a operação que foi apontada pelo profiling como a maior consumidora de tempo deste programa. A mudança consiste na inclusão da declaração if(novo->igru != filhos[i]->c->igru || novo->igru == -1). O primeiro teste refere-se aos dois nós pertencerem ao mesmo grupo, enquanto o segundo assegura que nós sem agrupamento sejam testados.
+
+Em testes iniciais com o arquivo de entrada utilizado para os demais testes deste algoritmo, a modificação não apresentou melhoras na performance, apresentando uma média de tempo levemente abaixo da média de tempos do algoritmo sem a modificação, tendo execuções mais demoradas que o original também. Desta forma, a diferença de tempos não é significativa o suficiente para se dizer que houve um ganho de performance com a modificação.
+
+Uma das hipóteses para a indiferença na performance é de que o conjunto de partículas testados não apresenta muitos casos em que a mudança seria mais significante: diversas partículas em um mesmo grupo, de forma que existam vários testes entre partículas do mesmo grupo, os quais seriam evitados pela mudança. Para testar esta hipótese, o conjunto de dados foi alterado, diminuindo o número de partículas e alocando um grande grupo de partículas próximas. 
+
+
+
+
 ##Referências
 
 SPRINGEL, Volker; YOSHIDA, Naoki; WHITE, Simon DM. GADGET: a code for collisionless and gasdynamical cosmological simulations. New Astronomy, v. 6, n. 2, p. 79-117, 2001. [Link](http://arxiv.org/pdf/astro-ph/0003162v3.pdf)
