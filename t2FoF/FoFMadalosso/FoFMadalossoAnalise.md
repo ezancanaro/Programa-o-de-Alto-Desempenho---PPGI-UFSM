@@ -218,7 +218,15 @@ Em testes iniciais com o arquivo de entrada utilizado para os demais testes dest
 Uma das hipóteses para a indiferença na performance é de que o conjunto de partículas testados não apresenta muitos casos em que a mudança seria mais significante: diversas partículas em um mesmo grupo, de forma que existam vários testes entre partículas do mesmo grupo, os quais seriam evitados pela mudança. Para testar esta hipótese, o conjunto de dados foi alterado, diminuindo o número de partículas e alocando um grande grupo de partículas próximas. 
 
 
+##Visualização dos Dados
 
+Quando o programa na análise em questão utiliza uma entrada com centenas ou milhares de informações, uma das preocupações é como essa entrada se comporta e o que pode ser modificado para ajudar na análise. No caso do algorítmo utilizado os dados são pontos num espaço, então a ideia de poder visualizar em um gráfico é atraente para a análise.
+
+Foi utilizada então ferramenta de visualização *Highcharts*, implementada em JavaScript. A ferramenta dispõe da opção de gerar gráficos 2D com vários acessórios, e uma versão 3D do *Scatter Chart*.
+
+Para os exemplos abaixos foram utilizados menos pontos de entrada que o arquivo base (que continha 318 mil pontos no espaço 3D).
+
+![exemplooScatter3d](exemploScatter3d.png "Exemplo visualização da entrada")
 
 ##Referências
 
