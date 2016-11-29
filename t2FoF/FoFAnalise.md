@@ -36,7 +36,7 @@ O algoritmo inicia um laço com uma partícula na posição **i** seguindo a ord
 Desta forma, o algoritmo faz o agrupamento através da propagação, agrupando primeiramente todas as partículas próximas (**distância <= raio de percolação**) da partícula inicial **i** e em seguida todas as partículas próximas daquelas que foram agrupadas pelo primeiro passo.
 
 
-##Sobre os testes##                
+##Sobre os teste
 
 
 Os testes foram executados em uma máquina com as seguintes configurações:
@@ -63,3 +63,14 @@ Para a medição dos tempos de execução, foi utilizada a biblioteca *chronus* 
 
 
 A tabela dos resultados mostra uma consistência na redução do tempo de execução do algoritmo de classificação conforme o raio de percolação é aumentado e o número de grupos classificados diminui.
+
+##Resultados execução paralela
+
+| Threads | Raio | Leitura  | Friends    | PosProess  | Limpeza   | Grupos | >1 |
+| ------- | ---: | -------: | ---------: | ---------: | --------: | -----: | ---: |
+| 4       | 0.5  | 25949572 |  746088834 |  294304891 | 199364756 |  64402 | 22578 |
+| 4       | 1    | 26037048 |  667758726 | 1259819021 |  89632250 |  24702 |  4761 |
+| 4       | 2    | 25882159 |  586174190 | 1011403425 |  22210612 |    932 |   244 |
+| 4       | 4    | 24014377 |  328913058 |  161687590 |  19412593 |     36 |     9 |
+| 1       | 1    |  4911544 | 1424700469 |          0 |  18462026 |  25771 |  1469 |
+| 2       | 4    | 25837386 | 2250649106 |   12726840 |  19595167 |     37 |     9 |
