@@ -66,7 +66,7 @@ A tabela dos resultados mostra uma consistência na redução do tempo de execu�
 
 ##Resultados execução paralela
 
-| Threads | Raio | Leitura  | Friends    | PosProess  | Limpeza   | Grupos | >1 |
+| Threads | Raio | Leitura  | Friends    | PosProcess  | Limpeza   | Grupos | >1 |
 | ------- | ---: | -------: | ---------: | ---------: | --------: | -----: | ---: |
 | 4       | 0.5  | 25,949572 |  746,088834 |  294,304891 | 199,364756 |  64402 | 22578 |
 | 4       | 1    | 26,037048 |  667,758726 | 1259,819021 |  89,632250 |  24702 |  4761 |
