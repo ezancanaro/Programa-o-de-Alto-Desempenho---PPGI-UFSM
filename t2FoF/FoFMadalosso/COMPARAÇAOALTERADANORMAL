@@ -1,0 +1,54 @@
+NORMAL RAIO 0.1:
+	numero de grupos 178888
+Tempo total :    10576.32200 (ms)
+
+numero de grupos 178888
+Tempo total :    10535.37900 (ms)
+
+numero de grupos 178888
+Tempo total :    16887.50500 (ms)
+
+ALTERADA RAIO 0.1:
+
+numero de grupos 178888
+Tempo total :    16879.28400 (ms)
+
+numero de grupos 178888
+Tempo total :    16879.28400 (ms)
+
+numero de grupos 178888
+Tempo total :    10705.62800 (ms)
+
+NORMAL RAIO 0.5:
+
+numero de grupos 60393
+Tempo total :    20351.74700 (ms)
+
+numero de grupos 60393
+Tempo total :    19970.54100 (ms)
+
+ALTERADA RAIO 0.5:
+
+numero de grupos 60393
+Tempo total :    17810.51200 (ms)
+
+
+ENTRADA 1000 pontos:
+
+Normal 0.5:
+numero de grupos 520
+Tempo total :    480.08700 (ms)
+
+numero de grupos 520
+Tempo total :    405.47500 (ms)
+
+numero de grupos 520
+Tempo total :    477.36400 (ms)
+
+Alterada 0.5:
+
+520
+Tempo total :    424.58000 (ms)
+
+numero de grupos 520
+Tempo total :    481.72600 (ms)

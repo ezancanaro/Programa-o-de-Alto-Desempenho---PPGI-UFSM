@@ -1,4 +1,4 @@
-﻿**Diogo João Cardozo, Eric Tomás Zancanaro**
+**Diogo João Cardozo, Eric Tomás Zancanaro**
 
 
 **Programação de Alto Desempenho - PPGI UFSM**
@@ -215,7 +215,9 @@ Uma modificação explorada no código foi a inclusão de um teste antes da comp
 
 Em testes iniciais com o arquivo de entrada utilizado para os demais testes deste algoritmo, a modificação não apresentou melhoras na performance, apresentando uma média de tempo levemente abaixo da média de tempos do algoritmo sem a modificação, tendo execuções mais demoradas que o original também. Desta forma, a diferença de tempos não é significativa o suficiente para se dizer que houve um ganho de performance com a modificação.
 
-Uma das hipóteses para a indiferença na performance é de que o conjunto de partículas testados não apresenta muitos casos em que a mudança seria mais significante: diversas partículas em um mesmo grupo, de forma que existam vários testes entre partículas do mesmo grupo, os quais seriam evitados pela mudança. Para testar esta hipótese, o conjunto de dados foi alterado, diminuindo o número de partículas e alocando um grande grupo de partículas próximas. 
+Uma das hipóteses para a indiferença na performance é de que o conjunto de partículas testados não apresenta muitos casos em que a mudança seria mais significante: diversas partículas em um mesmo grupo, de forma que existam vários testes entre partículas do mesmo grupo, os quais seriam evitados pela mudança. Para testar esta hipótese, o conjunto de dados foi alterado, diminuindo o número de partículas e alocando um grande grupo de partículas próximas.
+
+Estes testes também não apresentaram resultados significativos.
 
 
 ##Visualização dos Dados
